@@ -39,3 +39,4 @@
 
 # Alarm history files
 **/.alarms_*
+docker-compose.yaml
