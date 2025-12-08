@@ -1,0 +1,57 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 730,
+      "width": 987
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Drawing"
+        },
+        "position": {
+          "height": 606,
+          "width": 828,
+          "y": 8
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M331.45555555820465 264L457.4166674017906 264 577.0000014305115 318.89168721437454 460.6055563092232 359.27455842494965 331.45555555820465 359.9999992251396 331 264",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "pen-path",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "path"
+            }
+          ],
+          "preserveAspectRatio": "none"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 227,
+          "y": 645
+        },
+        "type": "ia.display.led-display"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

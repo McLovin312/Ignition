@@ -1,0 +1,70 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "custom": {
+          "key": [
+            {
+              "aggregate": "Average",
+              "alias": "tank_temp",
+              "path": "[default]Test"
+            }
+          ]
+        },
+        "meta": {
+          "name": "TimeSeriesChart"
+        },
+        "position": {
+          "height": 501,
+          "width": 634,
+          "x": 74,
+          "y": 237
+        },
+        "propConfig": {
+          "props.series[0].data": {
+            "binding": {
+              "config": {
+                "aggregate": "MinMax",
+                "avoidScanClassValidation": true,
+                "dateRange": {
+                  "mostRecent": "1",
+                  "mostRecentUnits": "HOUR"
+                },
+                "enableValueCache": true,
+                "ignoreBadQuality": false,
+                "polling": {
+                  "enabled": true,
+                  "rate": "120"
+                },
+                "preventInterpolation": false,
+                "returnFormat": "Wide",
+                "returnSize": {
+                  "numRows": "480",
+                  "type": "FIXED"
+                },
+                "tags": "{this.custom.key}",
+                "valueFormat": "DATASET"
+              },
+              "type": "tag-history"
+            }
+          }
+        },
+        "props": {
+          "series": [
+            {
+              "name": "Boiler"
+            }
+          ]
+        },
+        "type": "ia.chart.timeseries"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

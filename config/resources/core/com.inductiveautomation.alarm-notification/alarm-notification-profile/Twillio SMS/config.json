@@ -1,0 +1,10 @@
+{
+  "profile": {
+    "type": "twilio-notification-profile"
+  },
+  "settings": {
+    "acknowledgementAllowed": true,
+    "auditProfile": "Database_Audit_Log",
+    "twilioAccount": "Twilio"
+  }
+}

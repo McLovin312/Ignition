@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "type": "HistorySplitter"
+  },
+  "settings": {
+    "primaryHistorian": "MySQL",
+    "queryLimit": {
+      "enabled": false,
+      "size": 1,
+      "units": "MONTH"
+    },
+    "secondaryHistorian": "MSSQL"
+  }
+}

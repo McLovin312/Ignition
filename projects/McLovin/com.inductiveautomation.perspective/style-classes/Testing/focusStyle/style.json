@@ -1,0 +1,14 @@
+{
+  "base": {
+    "style": {}
+  },
+  "variants": [
+    {
+      "pseudo": "focus",
+      "style": {
+        "backgroundColor": "#8AFFFF",
+        "color": "#0000FF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "type": "EmailNotificationProfileType"
+  },
+  "settings": {
+    "advanced": {
+      "debugModeEnabled": false,
+      "smtpTimeout": 10000,
+      "startTlsEnabled": false
+    },
+    "auditProfile": null,
+    "settings": {
+      "emailProfile": "Gmail",
+      "hostname": null,
+      "port": 25,
+      "sslEnabled": false,
+      "useSmtpProfile": true,
+      "username": null
+    },
+    "twoWay": {
+      "gatewayAddress": null,
+      "httpsLinkEnabled": false,
+      "twoWayEnabled": false
+    },
+    "twoWayPop3": {
+      "pop3CustomMessage": null,
+      "pop3DeleteMessage": false,
+      "pop3Hostname": null,
+      "pop3PollingInterval": 60000,
+      "pop3Port": 110,
+      "pop3SslEnabled": false,
+      "pop3TwoWayEnabled": false,
+      "pop3Username": null
+    }
+  }
+}

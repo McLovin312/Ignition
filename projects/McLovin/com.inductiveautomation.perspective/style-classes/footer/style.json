@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "borderTopColor": "#06276B",
+      "borderTopStyle": "solid",
+      "borderTopWidth": "8px"
+    }
+  }
+}

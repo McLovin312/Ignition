@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 109,
+      "width": 839
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "LargeFooter"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Docked Views/Docked Footer Large"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "SmallFooter"
+        },
+        "props": {
+          "path": "Docked Views/Docked Footer Small"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "breakpoint": 1100
+    },
+    "type": "ia.container.breakpt"
+  }
+}

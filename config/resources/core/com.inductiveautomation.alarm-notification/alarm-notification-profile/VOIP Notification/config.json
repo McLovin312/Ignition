@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "type": "SipNotification"
+  },
+  "settings": {
+    "advanced": {
+      "authId": null,
+      "backupLocalAddress": null,
+      "localAddress": null,
+      "mediaDebugEnabled": false,
+      "publicAddress": null,
+      "rtpPort": 8000,
+      "sipPort": 5060
+    },
+    "auditProfile": "Database_Audit_Log",
+    "callSettings": {
+      "answerTimeout": 60,
+      "maxCallDuration": 5,
+      "maxQueue": 10,
+      "useFairScheduling": false,
+      "voiceRate": "Normal"
+    },
+    "maxWait": 10,
+    "profile": "VOIP Notification",
+    "voipGateway": {
+      "host": "sip.callcentric.net",
+      "outboundProxy": null,
+      "password": {
+        "data": {
+          "ciphertext": "YbdE9PNe-EUoySar",
+          "encrypted_key": "RjA7A4GkH0wzpyz-ICAxttjtVPXzxnZfdTZBJoEa4zClkyuxBSawWw",
+          "iv": "VVxuKgMB1BNVoRm-",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODY2LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+          "tag": "8zja6w_HNV6LUl9dtMcBbA"
+        },
+        "type": "Embedded"
+      },
+      "username": "17778391137101"
+    }
+  }
+}

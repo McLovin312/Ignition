@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "allowBackfill": false,
+    "enableTagReferenceStore": true,
+    "type": "REMOTE"
+  },
+  "settings": {
+    "alarmMode": "Queried",
+    "alarmStatusEnabled": true,
+    "historyDatasourceName": null,
+    "historyDriverName": null,
+    "historyMode": "GatewayNetwork",
+    "historyProviderName": null,
+    "remoteProviderName": "edge",
+    "serverName": "FrontEnd"
+  }
+}

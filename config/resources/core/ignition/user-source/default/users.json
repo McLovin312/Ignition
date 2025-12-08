@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "uuid": "1",
+      "username": "ad",
+      "schedule": "Always",
+      "password": "[4091ed65]7d07651c7c25c87e4476a6b26a81446e6796601921947f388304724e80580d80",
+      "passwordDate": "20250623.161854419-0700",
+      "passwordHistory": [],
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251007.091746674-0700",
+      "roles": [
+        "ffc2b79b-0668-4b01-a8bc-3e358f0ef3ca"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": [
+        {
+          "contactType": "email",
+          "value": "tlovin@inductiveautomation.com",
+          "order": 0
+        },
+        {
+          "contactType": "sms",
+          "value": "+17705492116",
+          "order": 1
+        },
+        {
+          "contactType": "phone",
+          "value": "+17705492116",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "uuid": "3",
+      "username": "Operator",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[6A7D9EE0]e47e290bf4c4071c5d0db2aa68142bdc6cb2c7412b863ffe6fdc49ff46cb2a9d",
+      "passwordDate": "20250702.150906949-0700",
+      "passwordHistory": [],
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251007.091746674-0700",
+      "roles": [
+        "c9312f97-dc5d-411a-9610-cc660f052920"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "4",
+      "username": "Manager",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[0DA1526B]f2dda7336c0ff63dcb70c81769029ab8008f95a2bf1859e8d40b54f077557024",
+      "passwordDate": "20250702.150946751-0700",
+      "passwordHistory": [],
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251007.091746674-0700",
+      "roles": [
+        "6bbd9704-5c94-457e-8a2f-9b3efd25d92c",
+        "c9312f97-dc5d-411a-9610-cc660f052920"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "6",
+      "username": "Adarsh",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[483F80A9]0ac5712f985d2f51773e132abd6a1ac026d685fa1217b4002d1fe828cf7d309f",
+      "passwordDate": "20250715.124138769-0700",
+      "passwordHistory": [],
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251007.091746674-0700",
+      "roles": [
+        "ffc2b79b-0668-4b01-a8bc-3e358f0ef3ca"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": [
+        {
+          "contactType": "email",
+          "value": "apinjala@inductiveautomation.com",
+          "order": 0
+        }
+      ]
+    },
+    {
+      "uuid": "39305973-6136-4ae7-9af5-5ddf3b0e6999",
+      "username": "bee",
+      "firstName": "",
+      "lastName": "",
+      "schedule": "Always",
+      "description": "",
+      "password": "[5583DCB7]02754f9ee2c64816ada64b0f2007c939f1541177df7650df8259edef1ae36fbf",
+      "passwordDate": "20251125.134740072-0800",
+      "passwordHistory": [],
+      "badge": "",
+      "createdDate": "20251125.134740068-0800",
+      "lastModifiedDate": "20251125.134748127-0800",
+      "roles": [
+        "ffc2b79b-0668-4b01-a8bc-3e358f0ef3ca",
+        "c9312f97-dc5d-411a-9610-cc660f052920",
+        "6bbd9704-5c94-457e-8a2f-9b3efd25d92c"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin",
+          "propertyValue": ""
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "ffc2b79b-0668-4b01-a8bc-3e358f0ef3ca",
+      "rolename": "Administrator",
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251125.134748207-0800"
+    },
+    {
+      "uuid": "c9312f97-dc5d-411a-9610-cc660f052920",
+      "rolename": "Operator",
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251125.134748639-0800"
+    },
+    {
+      "uuid": "6bbd9704-5c94-457e-8a2f-9b3efd25d92c",
+      "rolename": "Manager",
+      "createdDate": "20251007.091746674-0700",
+      "lastModifiedDate": "20251125.134749111-0800"
+    }
+  ]
+}

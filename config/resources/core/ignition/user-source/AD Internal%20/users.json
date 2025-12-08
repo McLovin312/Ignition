@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "tlovin",
+      "firstName": "Thomas",
+      "lastName": "Lovin",
+      "schedule": "Always",
+      "passwordHistory": [],
+      "createdDate": "20251119.115020107-0800",
+      "lastModifiedDate": "20251119.115020107-0800",
+      "roles": [
+        "74644e61-8249-47f7-94a1-6a64786cd01d"
+      ],
+      "extraProps": [],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "74644e61-8249-47f7-94a1-6a64786cd01d",
+      "rolename": "Admin",
+      "createdDate": "20251119.115004788-0800",
+      "lastModifiedDate": "20251119.115018747-0800"
+    }
+  ]
+}

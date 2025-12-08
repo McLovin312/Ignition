@@ -1,0 +1,18 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2025-10-07T16:17:37Z"
+    },
+    "uuid": "58cd35f8-0277-4260-b393-60b6d136bf73",
+    "lastModificationSignature": "c86b2ef23cfe339ffefe25d93c1ebb2d3dda9813b76cebd7939a11468abf349e",
+    "enabled": true
+  }
+}

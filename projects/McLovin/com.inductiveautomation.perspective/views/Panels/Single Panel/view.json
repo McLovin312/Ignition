@@ -1,0 +1,363 @@
+{
+  "custom": {},
+  "params": {
+    "location": "Middlegate",
+    "panelID": 1
+  },
+  "propConfig": {
+    "params.location": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.panelID": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 515,
+      "width": 300
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PanelName"
+        },
+        "position": {
+          "basis": "72px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "\"Panel \" + {view.params.panelID} + \" - \" + {parent.custom.panel[0].model}"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "panelHeader"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "SiteLabel"
+        },
+        "position": {
+          "basis": "50px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "{/root.custom.panel[0].location} + \" site\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "panelLabel"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "MaintenanceLabel"
+            },
+            "position": {
+              "basis": "60%",
+              "shrink": 0
+            },
+            "props": {
+              "style": {
+                "classes": "panelLabel"
+              },
+              "text": "Maintenance Mode"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "MaintenanceMSB"
+            },
+            "position": {
+              "basis": "40%",
+              "shrink": 0
+            },
+            "props": {
+              "controlValue": 0,
+              "indicatorValue": 0,
+              "orientation": "row",
+              "states": [
+                {
+                  "selectedStyle": {
+                    "classes": ""
+                  },
+                  "text": "Run",
+                  "unselectedStyle": {
+                    "classes": ""
+                  },
+                  "value": 2
+                },
+                {
+                  "selectedStyle": {
+                    "classes": ""
+                  },
+                  "text": "Maint",
+                  "unselectedStyle": {
+                    "classes": ""
+                  },
+                  "value": 0
+                }
+              ]
+            },
+            "type": "ia.input.multi-state-button"
+          }
+        ],
+        "meta": {
+          "name": "MaintenanceContainer"
+        },
+        "position": {
+          "basis": "50px",
+          "shrink": 0
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "FaultLabel"
+        },
+        "position": {
+          "basis": "75px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "location": "{view.params.location}",
+                  "panelID": "{view.params.panelID}"
+                },
+                "tagPath": "[default]Intake/{location}/Panel {panelID}/Fault"
+              },
+              "transforms": [
+                {
+                  "code": "\tif value \u003d\u003d True:\n\t\tself.props.style.classes \u003d \u0027panelFaultedLabel panelLabel\u0027\n\t\treturn \"Faulted\"\n\telse:\n\t\tself.props.style.classes \u003d \u0027panelLabel\u0027\n\t\treturn \"No fault\"",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "panelFaultedLabel panelLabel"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "TempLabel"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "props": {
+                  "style": {
+                    "classes": "panelLabel"
+                  },
+                  "text": "Temperature"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TempLed"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "location": "{view.params.location}",
+                          "panelID": "{view.params.panelID}"
+                        },
+                        "tagPath": "[default]Intake/{location}/Panel {panelID}/Temperature"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "TempContainer"
+            },
+            "position": {
+              "basis": "50%",
+              "grow": 1
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "VoltLabel"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "props": {
+                  "style": {
+                    "classes": "panelLabel"
+                  },
+                  "text": "Voltage"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "VoltLed"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "location": "{view.params.location}",
+                          "panelID": "{view.params.panelID}"
+                        },
+                        "tagPath": "[default]Intake/{location}/Panel {panelID}/Voltage"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\treturn round(value, 2)",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "VoltContainer"
+            },
+            "position": {
+              "basis": "50%",
+              "grow": 1
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "ControlsContainer"
+        },
+        "position": {
+          "basis": "100px",
+          "grow": 1
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "DetailsMarkdown"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.source": {
+            "binding": {
+              "config": {
+                "expression": "\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003ePurchase Date:\u003c/span\u003e \" + {/root.custom.panel[0].date_purchased} + \"\u003c/p\u003e\" + \r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eOEM Specs:\u003c/span\u003e \u003c/p\u003e\u003cul\u003e\" +\r\n\"\u003cli\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eSTC:\u003c/span\u003e \" + {/root.custom.panel[0].stc} + \"W\u003c/li\u003e\" +\r\n\"\u003cli\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003ePTC:\u003c/span\u003e \" + {/root.custom.panel[0].ptc} + \"kWh\u003c/li\u003e\" +\r\n\"\u003cli\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eOCV:\u003c/span\u003e \" + {/root.custom.panel[0].open_circuit_voltage} + \"V\u003c/li\u003e\" +\r\n\"\u003cli\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eEfficiency:\u003c/span\u003e \" + {/root.custom.panel[0].efficiency} + \"%\u003c/li\u003e\" +\r\n\"\u003c/ul\u003e\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "markdown": {
+            "escapeHtml": false
+          },
+          "style": {
+            "classes": "panelLabel markdown"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.panel": {
+        "binding": {
+          "config": {
+            "parameters": {
+              "panelID": "{view.params.panelID}"
+            },
+            "queryPath": "Panels/Select Single Panel",
+            "returnFormat": "json"
+          },
+          "type": "query"
+        }
+      }
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "panelCard"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

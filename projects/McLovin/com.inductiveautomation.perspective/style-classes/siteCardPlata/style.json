@@ -1,0 +1,20 @@
+{
+  "base": {
+    "style": {
+      "backgroundImage": "url(\u0027/system/images/Acme/plata.jpg\u0027)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "100%"
+    }
+  },
+  "variants": [
+    {
+      "media": {
+        "feature": "minWidth",
+        "value": "1000px"
+      },
+      "style": {
+        "backgroundPosition": "center"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "D",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [],
+  "attributes": {
+    "menuRoot": {
+      "children": [
+        {
+          "children": [
+            {
+              "script": "system.security.logout()",
+              "name": "Logout",
+              "iconPath": "Builtin/icons/16/id_card_delete.png",
+              "mnemonic": "L"
+            },
+            {
+              "script": "system.security.lockScreen()",
+              "name": "Lock Screen",
+              "iconPath": "Builtin/icons/16/monitor_lock.png",
+              "mnemonic": "S"
+            },
+            {
+              "script": "system.util.exit()",
+              "name": "Exit",
+              "iconPath": "Builtin/icons/16/exit.png",
+              "mnemonic": "E"
+            }
+          ],
+          "name": "Command",
+          "mnemonic": "C"
+        }
+      ],
+      "script": "",
+      "name": "Menu Item",
+      "description": ""
+    },
+    "lastModificationSignature": "051eacd9161eff00a90ac7ff0e06399dde49590bb0f7cfae4a660c936848faf3",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2025-11-18T00:17:22Z"
+    }
+  }
+}

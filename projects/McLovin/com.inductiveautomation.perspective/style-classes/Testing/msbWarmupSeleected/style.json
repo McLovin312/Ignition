@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#EFD19F",
+      "color": "#27251F",
+      "fontWeight": "bold"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 249,
+      "width": 299
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 42,
+          "width": 52,
+          "x": 123.5,
+          "y": 103.5
+        },
+        "props": {
+          "text": "popup"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#F8E4E4"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "profile": {
+    "cacheValidationTimeout": 60000,
+    "failoverMode": "HARD",
+    "failoverProfile": "default",
+    "lockoutAttempts": 5,
+    "lockoutEnabled": true,
+    "lockoutWindow": 15,
+    "scheduleRestricted": false,
+    "type": "FALLBK_CACHE"
+  },
+  "settings": {
+    "cacheRetention": 15
+  }
+}

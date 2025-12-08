@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:postgresql://localhost:8812/QuestDB",
+  "connectionProps": "",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "PostgreSQL",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": "",
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "XL8vOFM_jE8qCg",
+      "encrypted_key": "UoqkEifCarDq4Jx6YvAeE-pRgfSHLR1AP8Bd96YTj6Y3KYJAVPmCmQ",
+      "iv": "idUNqi0AUW9a3pQg",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzYwMDUzODQ0LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+      "tag": "-mmvyMkyyt13tKuHHF4bWw"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "POSTGRES",
+  "username": "user",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

@@ -1,0 +1,251 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 499
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "72px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Add Workorder"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "DescriptionLabel"
+            },
+            "position": {
+              "basis": "160px",
+              "shrink": 0
+            },
+            "props": {
+              "style": {
+                "classes": "formLabel"
+              },
+              "text": "Description"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "DescriptionTextArea"
+            },
+            "position": {
+              "basis": "240px",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "classes": "formFields"
+              }
+            },
+            "type": "ia.input.text-area"
+          }
+        ],
+        "meta": {
+          "name": "DescriptionContainer"
+        },
+        "position": {
+          "basis": "256px",
+          "shrink": 0
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EquipmentTypeLabel"
+            },
+            "position": {
+              "basis": "160px",
+              "shrink": 0
+            },
+            "props": {
+              "style": {
+                "classes": "formLabel"
+              },
+              "text": "Equipment Type"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "EquipmentTypeSelector"
+            },
+            "position": {
+              "basis": "20%",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.options": {
+                "binding": {
+                  "config": {
+                    "queryPath": "Workorders/SELECT Equipment Types for Dropdown",
+                    "returnFormat": "json"
+                  },
+                  "type": "query"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "formFields"
+              },
+              "value": 2
+            },
+            "type": "ia.input.dropdown"
+          },
+          {
+            "meta": {
+              "name": "EquipmentIDLabel"
+            },
+            "position": {
+              "basis": "20%",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "classes": "formLabel"
+              },
+              "text": "Equipment ID"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "EquipmentIDSelector"
+            },
+            "position": {
+              "basis": "20%",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.options": {
+                "binding": {
+                  "config": {
+                    "parameters": {
+                      "equipmentType": "{../Equipment Type Selector.props.value}"
+                    },
+                    "queryPath": "Workorders/SELECT Equipment IDs for Dropdown",
+                    "returnFormat": "json"
+                  },
+                  "type": "query"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "formFields"
+              },
+              "value": 3
+            },
+            "type": "ia.input.dropdown"
+          },
+          {
+            "meta": {
+              "name": "AssignedUserLabel"
+            },
+            "position": {
+              "basis": "20%",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "classes": "formLabel"
+              },
+              "text": "Assigned User"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "UserSelector"
+            },
+            "position": {
+              "basis": "20%",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.options": {
+                "binding": {
+                  "config": {
+                    "queryPath": "Workorders/SELECT Users for Dropdown",
+                    "returnFormat": "json"
+                  },
+                  "type": "query"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "formFields"
+              }
+            },
+            "type": "ia.input.dropdown"
+          }
+        ],
+        "meta": {
+          "name": "DetailsContainer"
+        },
+        "position": {
+          "basis": "72px",
+          "shrink": 0
+        },
+        "props": {
+          "justify": "space-evenly"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\t# Get user input\n\tdescription \u003d self.parent.getChild(\"DescriptionContainer\").getChild(\"DescriptionTextArea\").props.text\n\tequipmentType \u003d self.parent.getChild(\"DetailsContainer\").getChild(\"EquipmentTypeSelector\").props.value\n\tequipmentID \u003d self.parent.getChild(\"DetailsContainer\").getChild(\"EquipmentIDSelector\").props.value\n\tassignedTo \u003d self.parent.getChild(\"DetailsContainer\").getChild(\"UserSelector\").props.value\n\t\n\t# Insert the new workorder to the database\n\tpath \u003d \"Workorders/INSERT Workorder\"\n\tparams \u003d {\"description\": description, \"equipmentType\": equipmentType, \"equipmentID\": equipmentID, \n\t\t\"assignedTo\": assignedTo, \"assignedBy\": 1}\n\tsystem.db.runNamedQuery(path, params)\n\t\n\t# Refresh stuff\n\tsystem.perspective.sendMessage(\"refreshWorkorders\")\n\t\n\t# Close popup\n\tsystem.perspective.closePopup(\"addWorkorder\")"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "props": {
+          "style": {
+            "classes": "formButton"
+          },
+          "text": "Add"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

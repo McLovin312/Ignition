@@ -1,0 +1,69 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Solar Panels"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "PanelRepeater"
+        },
+        "position": {
+          "basis": "320px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.instances": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "location": "-1"
+                },
+                "queryPath": "Panels/Select All Panels",
+                "returnFormat": "json"
+              },
+              "transforms": [
+                {
+                  "code": "\tinstances \u003d []\n\tfor panel in value:\n\t\ttagPath \u003d \"[default]Intake/\" + panel[\u0027location\u0027] + \"/Panel \" + str(panel[\u0027panelID\u0027]) + \"/Fault\"\n\t\tfaultValue \u003d system.tag.readBlocking(tagPath)\n\t\tif faultValue[0].value:\n\t\t\tstyle \u003d \u0027panelFaultedCard\u0027\n\t\telse:\n\t\t\tstyle \u003d \u0027\u0027\n\t\tinstance \u003d {\n \t\t\t\"panelID\":panel[\"panelID\"],\n \t\t\t\"location\":panel[\"location\"],\n \t\t\t\u0027instanceStyle\u0027: {\n \t\t\t\t\u0027classes\u0027: style\n \t\t\t}\n\t\t} # instances property can be pasted from clipboard from previous step  \n\t\tinstances.append(instance)\n\tself.refreshBinding(\"props.instances\")\n\treturn instances",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "elementStyle": {
+            "classes": "panelCard"
+          },
+          "justify": "center",
+          "path": "Panels/Single Panel",
+          "wrap": "wrap"
+        },
+        "type": "ia.display.flex-repeater"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

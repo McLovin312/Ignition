@@ -1,0 +1,8 @@
+{
+  "config": {
+    "historyMaxAge": 1,
+    "historyMaxAgeUnits": "MIN",
+    "historyTimeDeadband": 15,
+    "rate": 15000
+  }
+}

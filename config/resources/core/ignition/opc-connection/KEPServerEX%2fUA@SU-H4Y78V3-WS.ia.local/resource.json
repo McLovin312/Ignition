@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "tlovin",
+      "timestamp": "2025-11-25T17:02:05Z"
+    },
+    "uuid": "25cd8fb4-41ab-4245-ad16-f70b6e009f44",
+    "lastModificationSignature": "3384eccb181f1efd7c2fefaf25684f7214ffa0d0472dedc5997873e08e9e64ca",
+    "enabled": true
+  }
+}

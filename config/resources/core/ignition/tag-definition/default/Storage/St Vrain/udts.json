@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Battery 8",
+    "typeId": "Battery",
+    "parameters": {
+      "batteryNumber": {
+        "dataType": "Integer",
+        "value": 8
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Battery 5",
+    "typeId": "Battery",
+    "parameters": {
+      "batteryNumber": {
+        "dataType": "Integer",
+        "value": 5
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

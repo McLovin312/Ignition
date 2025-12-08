@@ -1,0 +1,35 @@
+{
+  "connectURL": "jdbc:sqlserver://10.10.60.128\\SQLEXPRESS",
+  "connectionProps": "databaseName\u003dAcmeSolar;trustServerCertificate\u003dtrue",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "Microsoft SQLServer",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "L9dTeIZVSPmR-3S2g3TvqRGRUILxV5KwbawP7orc",
+      "encrypted_key": "KduvBLYntNLSqmLNVs7TysUWrcm7pdDLKeAmWHayTMBCy4LHsv2cVw",
+      "iv": "s7PVO5DZ95kRFYVT",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODU4LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+      "tag": "sEJzROL4DjsijiXS5RAoLg"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "MSSQL",
+  "username": "sa",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

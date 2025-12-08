@@ -1,0 +1,42 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Writeable/WriteableBoolean1",
+    "dataType": "Boolean",
+    "name": "TRIG PROCESS START PROCESS",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Random/RandomDouble2",
+    "dataType": "Float8",
+    "name": "Foreline Pressure",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Writeable/WriteableString1",
+    "dataType": "String",
+    "name": "process_string",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Random/RandomDouble1",
+    "dataType": "Float8",
+    "name": "Chamber Pressure",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Writeable/WriteableString2",
+    "dataType": "String",
+    "name": "TRIG PROCESS RUN NUMBER",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

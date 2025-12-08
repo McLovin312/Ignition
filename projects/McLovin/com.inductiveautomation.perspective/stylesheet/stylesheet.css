@@ -1,0 +1,174 @@
+/* Direct stylesheet authoring is an advanced feature. Knowledge of CSS required.*/
+
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Testing styles */
+.psc-Testing\/advButtonStyle {
+	background-color: #33FF99;
+}
+
+.psc-Testing\/advButtonStyle2 {
+	font-family: monospace;
+}
+
+.psc-Testing\/advButtonStyle3 {
+	font-size: 24px;
+}
+
+.psc-Testing\/advButtonStyle4 {
+	font-famiy: Merriweather;
+	font-size: 24px;
+	color: #ff0033;
+	background-color: #33FF99;
+}
+
+.psc-Testing\/advButtonStyle5 {
+	border: solid 4px #ff0000;
+	border-radius: 4px;
+}
+
+/* End testing styles */
+
+/* LEDs */
+.ia_ledComponet {
+	margin-left: 8px;
+	margin-right: 8px;
+/* This would also work: margin: 0 8px; */
+}
+
+.ia_ledComponent__diode--on {
+	fill: #00B2A3;
+}
+
+.ia_ledComponent__diode--off {
+	fill: #00BF2#1A;
+}
+
+/* Navigation */
+body, .ia_horizontalMenuComponent__item, .ia_container--secondary {
+	background-color: #fff
+	/* Whenever all three pairs of numbers in hexadecimal have double values, they can be expressed in three digits. So, #fff is the same as #ffffff, and #3f9 is the same as #33ff99 */
+}
+
+.ia_horizontalMenuComponent__item {
+	color: #06276B;
+}
+
+.ia_horizontalMenuComponent {
+	border: none;
+}
+
+/* markdown comoponents */
+
+.psc-markdown ul {
+	list-style-type: none;
+	padding-left: 24px;
+}
+
+.psc-markdown .mdLabel {
+	font-weight: bold;
+}
+
+.psc-siteMarkdown {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.psc-siteMarkdown .mdLabel {
+	font-weight: bold; 
+}
+
+.psc-siteMarkdown .mdErrorLabel {
+	
+}
+/* footer icons */
+.psc-footer svg {
+	transform: scale(2);
+	fill: #06276B;
+	margin: 24px;
+}
+
+/* Animation */
+.psc-panelFaultedLabel span {
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		font-size: 16px;
+	}
+
+	50% {
+		font-size: 24px;
+	}
+}
+
+/* apply Rokkitt */
+.psc-panelLabel, .psc-batteryLabel, .ia_button--secondary,  .horizontal-menu-menu-item span, .iaDropdownCommon .iaDropdownCommon_value, .psc-formLabel, .psc-tableCells{
+	font-family: Rokkitt;
+}
+
+/* Gridify the single panel, site markdown, and add workorders views */
+.psc-panelGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(7, 1fr);
+}
+
+.psc-panelGridHeader {
+	grid-column: 1/span 2;
+	grid-row: 1;
+}
+
+.psc-panelGridSiteLabel {
+	grid-column: 1/span 2;
+	grid-row: 2;
+}
+
+.psc-panelGridFaultLabel {
+	grid-column: 1/span 2;
+	grid-row: 3;
+}
+
+.psc-panelGridMaintLabel {
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.psc-panelGridMaintMSB {
+	grid-column: 2;
+	grid-row: 4;
+}
+
+.psc-panelGridTempLabel {
+	grid-column: 1;
+	grid-row: 5;
+}
+
+.psc-panelGridVoltLabel{
+	grid-column: 2;
+	grid-row: 5;
+}
+
+.psc-panelGridTempLED {
+	grid-column: 1;
+	grid-row: 6;
+}
+
+.psc-panelGridVoltLED {
+	grid-column: 2;
+	grid-row: 6;
+}
+
+.psc-panelGridMarkdown {
+	grid-column: 1/span 2;
+	grid-row: 7
+}
+
+.psc-siteMarkdown > span {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+}

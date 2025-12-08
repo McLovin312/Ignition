@@ -1,0 +1,6089 @@
+{
+  "pages": {
+    "/": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Overview"
+    },
+    "/Alarms/custom alarms": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Alarms Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/alarm Logic/Alarm Popup Logic V3"
+    },
+    "/DavidATorresInserni": {
+      "title": "DavidATorresInserni",
+      "viewPath": "Power/Sanchez/Embeded Views/David\u0027s Workshop"
+    },
+    "/IWW/channels": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/IWW Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "IWW/Channels"
+    },
+    "/IWW/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/IWW Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "IWW/OVERVIEW"
+    },
+    "/Power/Tesla/Site Conroller CMD Center": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Tesla/Command And Control"
+    },
+    "/Power/Tesla/Site Conroller CMD Center 2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Tesla/Command And Control MP2"
+    },
+    "/Water/Waste Water/ALARM_CONTROL": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/ALARM_CONTROL"
+    },
+    "/Water/Waste Water/ALARM_SETPOINTS": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/ALARM_SETPOINTS"
+    },
+    "/Water/Waste Water/IWW/Channels": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "IWW/Channels"
+    },
+    "/Water/Waste Water/IWW/Overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "IWW/OVERVIEW"
+    },
+    "/Water/Waste Water/LS/village": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/VILLAGE_LS"
+    },
+    "/Water/Waste Water/TRENDS": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/TRENDS"
+    },
+    "/ad astra/single line": {
+      "title": "",
+      "viewPath": "Power/LLCC/Ad Astra/embedded views/Single Line"
+    },
+    "/alarms/history": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Alarms Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Alarms/History/View"
+    },
+    "/alv3": {
+      "title": "",
+      "viewPath": "jackTheBest2"
+    },
+    "/diagrams/power/Office Building Single line": {
+      "title": "",
+      "viewPath": "Power/Office Building/Single Line"
+    },
+    "/diagrams/power/launchpad/Sub-orbital": {
+      "title": "",
+      "viewPath": "Power/Launch Pad/Diagrams/Suborbital One Line"
+    },
+    "/diagrams/power/launchpad/orbital": {
+      "title": "",
+      "viewPath": "Power/Launch Pad/Diagrams/Orbital Oneline"
+    },
+    "/diagrams/power/microgrid/one-line": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Grid Oneline"
+    },
+    "/diagrams/power/microgrid/one-line2": {
+      "title": "",
+      "viewPath": "Power/Under Dev DT/Grid Diagrams/Grid Oneline 2"
+    },
+    "/diagrams/power/microgrid/one-linebrowse": {
+      "title": "",
+      "viewPath": "Power/Powerwalls/Powerwall Table V3"
+    },
+    "/diagrams/power/microgrid/powerplant": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Plant Oneline"
+    },
+    "/diagrams/power/production/Megabay 1 Single Line": {
+      "title": "",
+      "viewPath": "Power/Production/Megabay 1/embedded views/Megabay 1 Single Line"
+    },
+    "/diagrams/power/production/Megabay 2 Single Line": {
+      "title": "",
+      "viewPath": "Power/Production/Megabay 2/embedded views/Megabay 2 Single Line"
+    },
+    "/diagrams/power/production/north oneline": {
+      "title": "",
+      "viewPath": "Power/Under Dev DT/Grid Diagrams/North Production"
+    },
+    "/diagrams/power/production/south oneline": {
+      "title": "",
+      "viewPath": "Power/Under Dev DT/Grid Diagrams/South Production"
+    },
+    "/diagrams/power/production/starfactory/PhaseB": {
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase B/Single Line"
+    },
+    "/diagrams/power/sanchez/Sanchez-Oneline": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Sanchez Switch Gear/Sanchez Single line"
+    },
+    "/diagrams/power/sanchez/datacenter": {
+      "title": "",
+      "viewPath": "Power/Sanchez/Diagrams/Datacenter Oneline"
+    },
+    "/diagrams/power/village-Oneline": {
+      "title": "",
+      "viewPath": "Power/Residential/Diagrams/Village Single Line"
+    },
+    "/diagrams/water/pumphouse": {
+      "title": "",
+      "viewPath": "Water/Pumphouse/Diagrams/PUMHOUSE-PID-OLD"
+    },
+    "/gas/channels": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Channels"
+    },
+    "/gas/embedded/compressor 1": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Compressor 1/Embedded View/compressor single"
+    },
+    "/gas/embedded/compressor 2": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Compressor 2/Embedded View/compressor single"
+    },
+    "/gas/embedded/dryer 1": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Dryer 1/Embedded View/DRYER 1 SINGLE LINE"
+    },
+    "/gas/embedded/dryer 2": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Dryer 2/Embedded View/DRYER 2 SINGLE LINE"
+    },
+    "/gas/embedded/med gn2": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Med Pressure GN2/Embedded View/MED PRESSURE GN2 SIGNLE LINE"
+    },
+    "/gas/production gas/compressor 1": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Compressor 1/OVERVIEW"
+    },
+    "/gas/production gas/compressor 2": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Compressor 2/OVERVIEW"
+    },
+    "/gas/production gas/dryer 1": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "header",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Dryer 1/OVERVIEW"
+    },
+    "/gas/production gas/dryer 2": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Dryer 2/OVERVIEW"
+    },
+    "/gas/production gas/embedded/overallproccess": {
+      "title": "",
+      "viewPath": "Gas/Production Gas/Embedded View/Overall Single Line"
+    },
+    "/gas/production gas/gn2/ln2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/LN2Tanks"
+    },
+    "/gas/production gas/gn2/pumps": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/Pumps"
+    },
+    "/gas/production gas/gn2/pumps/pump a": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/Pump A"
+    },
+    "/gas/production gas/gn2/pumps/pump b": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/Pump B"
+    },
+    "/gas/production gas/gn2/pumps/pump c": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/Pump C"
+    },
+    "/gas/production gas/hpgn2/overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/GN2/Pages/Overview"
+    },
+    "/gas/production gas/mb1": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Pipeline/MB1/Overview"
+    },
+    "/gas/production gas/mb2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Pipeline/MB2/Overview"
+    },
+    "/gas/production gas/med gn2": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Med Pressure GN2/OVERVIEW"
+    },
+    "/gas/production gas/nitrox/air tank": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Nitrox/Pages/Air Tank"
+    },
+    "/gas/production gas/nitrox/ln2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Nitrox/Pages/LN2 Tank"
+    },
+    "/gas/production gas/nitrox/lox": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Nitrox/Pages/LOX Tank"
+    },
+    "/gas/production gas/nitrox/mixing": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Nitrox/Pages/Mixing"
+    },
+    "/gas/production gas/nitrox/overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Nitrox/Pages/Overview"
+    },
+    "/gas/production gas/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Production Gas Overview"
+    },
+    "/gas/production gas/sf pipeline": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Pipeline/SF/Overview"
+    },
+    "/gas/production gas/starfactory/lng": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Pipeline/SF/Overview"
+    },
+    "/gas/trends": {
+      "title": "",
+      "viewPath": "Gas/Trends"
+    },
+    "/hvac/channels": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "HVAC/Channels"
+    },
+    "/intern-test": {
+      "title": "",
+      "viewPath": "intern test!"
+    },
+    "/jdjkfjksd": {
+      "title": "",
+      "viewPath": "UI Elements/Stage0 Css/S0 Parameter"
+    },
+    "/liveTrends": {
+      "docks": {
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Live Trends"
+    },
+    "/llcc/stargate": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/LLCC/Stargate/stargate overview"
+    },
+    "/new-page2": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/new-page3": {
+      "title": "",
+      "viewPath": "UI Elements/Stage0 Css/S0 Parameter"
+    },
+    "/new-page4": {
+      "title": "",
+      "viewPath": "UI Elements/Stage0 Css/vent"
+    },
+    "/new-page5": {
+      "title": "",
+      "viewPath": "Power/Sanchez/Embeded Views/UPSA-FLEX"
+    },
+    "/new-page6": {
+      "title": "",
+      "viewPath": "UI Elements/Stage0 Css/valve"
+    },
+    "/newsingleline": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Sanchez Switch Gear/test"
+    },
+    "/page-in-developement": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Under Dev/In Dev"
+    },
+    "/power/Gen Controller": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Microgrid/Gen Garden/Gen Garden Command And Control"
+    },
+    "/power/LLCC/launch critical": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Flight Critical Assets"
+    },
+    "/power/Office Building Overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Office Building/Overview"
+    },
+    "/power/UPS Overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/UPS Overview"
+    },
+    "/power/channels": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Channels"
+    },
+    "/power/forecast/demo": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Microgrid/Forecast Overview"
+    },
+    "/power/generators": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "Generators",
+      "viewPath": "Power/Generators/Overview"
+    },
+    "/power/launchpad/comm": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Launch Pad/Comms Power"
+    },
+    "/power/launchpad/orbital": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Launch Pad/Orbital Overview"
+    },
+    "/power/launchpad/suborbital": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "SEL 751 Interface",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 500,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Right Navigation/SEL 751 Interface"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Launch Pad/Suborbital"
+    },
+    "/power/llcc/ad astra/overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/LLCC/Ad Astra/Ad Astra Overview"
+    },
+    "/power/microgrid/megapack overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Microgrid/Megapack Overview"
+    },
+    "/power/microgrid/overview 2": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Under Dev DT/Grid Diagrams/Microgrid Overview 2"
+    },
+    "/power/microgrid/overview 3": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Under Dev DT/Grid Diagrams/Grid Oneline 2"
+    },
+    "/power/microgrid/powerplant": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Microgrid/Power Plant Overview"
+    },
+    "/power/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Overview"
+    },
+    "/power/production/Overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Main/Production Overview"
+    },
+    "/power/production/Starfactory/phaseb": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase B/Starfactory Phase B Overview"
+    },
+    "/power/production/highbay overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Highbay/Highbay Overview"
+    },
+    "/power/production/megabay 1": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Megabay 1/Megabay 1 overview"
+    },
+    "/power/production/megabay 2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Megabay 2/Megabay 2 overview"
+    },
+    "/power/production/north utility yard": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/North Utility/North Utility overview"
+    },
+    "/power/production/starfactory/phase a overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase A/overview"
+    },
+    "/power/production/starfactory/phase b overview": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase B/overview"
+    },
+    "/power/production/starfactory/phase-1": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase A/overview"
+    },
+    "/power/production/tent 4": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Tent 4/Tent 4 overview"
+    },
+    "/power/sanchez": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Sanchez/Sanchez Overview"
+    },
+    "/power/sanchez-Overview": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Sanchez Switch Gear/Sanchez Single line"
+    },
+    "/power/sanchez/datacenter": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Sanchez/Datacenter Overview"
+    },
+    "/power/t1channels": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 500,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/ChannelsT1"
+    },
+    "/power/village": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Residential/Village Overview"
+    },
+    "/power/village/powerwall": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "Powerwalls",
+      "viewPath": "Power/Powerwalls/Powerwall Table V3"
+    },
+    "/production/satellite building": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Power/Production/Satellite Telco/Sat overview"
+    },
+    "/push-changes": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Push Changes"
+    },
+    "/sf_ph_a": {
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase A/Starfactory Phase A Overview"
+    },
+    "/sf_ph_d": {
+      "title": "",
+      "viewPath": "Power/Production/Starfactory/Starfactory Phase D/Pqube Data"
+    },
+    "/test": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 275,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Channels"
+    },
+    "/test2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Power Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 50,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "testview"
+    },
+    "/trends": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 40,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Trends/Main"
+    },
+    "/water/IWW/Plaza LS": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_vew",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/IWW/Plaza LS"
+    },
+    "/water/Pumphouse/edge view/ALARMS": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/water/Pumphouse/edge view/CHEMICAL INJECTION": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/CHEMICAL-INJECTION"
+    },
+    "/water/Pumphouse/edge view/EVENTS": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/EVENTS"
+    },
+    "/water/Pumphouse/edge view/PID": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/PUMHOUSE-PID"
+    },
+    "/water/Pumphouse/edge view/POTABLE PUMPS": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/POTABLE-PUMP-PARAMETERIZATION"
+    },
+    "/water/Pumphouse/edge view/POTABLE WATER TANKS": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/WATER-CONDITIONS"
+    },
+    "/water/Pumphouse/edge views/ALARMS": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/ALARMS"
+    },
+    "/water/Pumphouse/edge views/DIESEL-FIRE-PUMP": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/DIESEL-FIRE-PUMP"
+    },
+    "/water/Pumphouse/edge views/EVENTS": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/EVENTS"
+    },
+    "/water/Pumphouse/edge views/PUMHOUSE-OVERVIEW": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/edge views/PUMHOUSE-OVERVIEW"
+    },
+    "/water/channels 2": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Channels Edge"
+    },
+    "/water/hoa setpoints": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/HOA_SETPOINTS"
+    },
+    "/water/old channels": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Channels"
+    },
+    "/water/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Overview"
+    },
+    "/water/pumphouse/chem-injection": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/CHEMICAL INJECTION 2"
+    },
+    "/water/pumphouse/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/Pumphouse Overview"
+    },
+    "/water/pumphouse/pid": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/Pumphouse P\u0026ID"
+    },
+    "/water/pumphouse/potablepumpparameterization": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/POTABLE PUMP PARAMETERIZATION"
+    },
+    "/water/pumphouse/potablewatertanks": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Water Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Pumphouse/Potable water tanks"
+    },
+    "/water/reclaim/overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Edge water menu"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Reclaim/Overview"
+    },
+    "/water/reclaim/water-report": {
+      "title": "",
+      "viewPath": "Water/Reclaim/Water Report"
+    },
+    "/water/reclaim/water-report-v2": {
+      "title": "",
+      "viewPath": "Water/Reclaim/Water Report V2"
+    },
+    "/water/trends": {
+      "title": "",
+      "viewPath": "Water/Trends"
+    },
+    "/water/wastewater/channels": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/Channels"
+    },
+    "/water/wastewater/effluent": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/EFFLUENT"
+    },
+    "/water/wastewater/headworks": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer V2/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/HEADWORKS"
+    },
+    "/water/wastewater/membrane": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/MEMBRANE"
+    },
+    "/water/wastewater/process setpoints": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/TREATMENT_PSP"
+    },
+    "/water/wastewater/process-overview": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/OVERVIEW"
+    },
+    "/water/wastewater/treatment": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Waste water menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Water/Waste Water/TREATMENT"
+    },
+    "/x1": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 180,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/STAGE1 Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "X1",
+      "viewPath": "DragDrop/DragDrop"
+    },
+    "/x1 new page": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 200,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/STAGE1 Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "DragDrop/tagPathPopup/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "DragDrop/New Screen"
+    },
+    "/zoom/singleV2": {
+      "title": "",
+      "viewPath": "Power/Microgrid/Diagrams/Grid Oneline"
+    },
+    "/zoom/stargate single": {
+      "title": "",
+      "viewPath": "Power/LLCC/Stargate/embedded views/Single Line"
+    },
+    "S": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "footer",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 33,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Footer/Footer"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "left_nav",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Left Navigation/Gas Menu"
+          }
+        ],
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "right_view",
+            "modal": false,
+            "resizable": false,
+            "show": "onDemand",
+            "size": 400,
+            "viewParams": {},
+            "viewPath": "UI Elements/Channel Browser/Sub Views/Tag Details/main"
+          }
+        ],
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "header",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 70,
+            "viewParams": {},
+            "viewPath": "UI Elements/Page Elements/Header/Header Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Gas/Production Gas/Production Gas Overview"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

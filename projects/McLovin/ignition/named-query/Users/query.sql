@@ -1,0 +1,1 @@
+SELECT contact_value FROM UserSource_user_ci

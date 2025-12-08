@@ -1,0 +1,45 @@
+{
+  "custom": {},
+  "params": {},
+  "permissions": {
+    "securityLevels": [],
+    "type": "AllOf"
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmJournalTable"
+        },
+        "position": {
+          "height": 400,
+          "width": 800,
+          "y": 142
+        },
+        "props": {
+          "filter": {
+            "events": {
+              "acked": false,
+              "active": false,
+              "cleared": false
+            },
+            "priorities": {
+              "critical": false,
+              "high": false,
+              "low": false,
+              "medium": false
+            }
+          },
+          "name": "Database_Alarm_Journal",
+          "refreshRate": 1000
+        },
+        "type": "ia.display.alarmjournaltable"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

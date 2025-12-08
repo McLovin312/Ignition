@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Battery 1",
+    "typeId": "Battery",
+    "parameters": {
+      "batteryNumber": {
+        "dataType": "Integer",
+        "value": 1
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Plata"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Battery 7",
+    "typeId": "Battery",
+    "parameters": {
+      "batteryNumber": {
+        "dataType": "Integer",
+        "value": 7
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Plata"
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

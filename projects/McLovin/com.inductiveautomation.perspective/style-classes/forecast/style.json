@@ -1,0 +1,18 @@
+{
+  "base": {
+    "style": {
+      "fontSize": "16px"
+    }
+  },
+  "variants": [
+    {
+      "media": {
+        "feature": "maxWidth",
+        "value": "1100px"
+      },
+      "style": {
+        "fontSize": "12px"
+      }
+    }
+  ]
+}

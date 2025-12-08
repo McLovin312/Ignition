@@ -1,0 +1,56 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 333,
+      "width": 517
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PasswordField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 171,
+          "y": 158
+        },
+        "props": {
+          "placeholder": "Login"
+        },
+        "type": "ia.input.password-field"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "    user_name \u003d self.session.props.auth.user.userName\n    pwd_field \u003d self.getSibling(\"PasswordField\")\n    entered   \u003d (pwd_field.props.text or \"\").strip()\n\n    if not user_name:\n        system.perspective.print(\"No user is currently logged in.\")\n        return\n    if not entered:\n        system.perspective.print(\"Please enter your password.\")\n        return\n\n    # Trigger the configured Authentication Challenge on THIS page.\n    # IMPORTANT: \"ReAuth\" must match the Challenge ID you configured in Designer.\n    system.perspective.authenticationChallenge(\n        pageId\u003dself.page.id,\n        challengeId\u003d\"ReAuth\"\n    )\n\n    # Clear the password box either way\n    pwd_field.props.text \u003d \"\""
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 34,
+          "width": 80,
+          "x": 196,
+          "y": 227
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "profile": {
+    "cacheValidationTimeout": 1,
+    "failoverMode": "HARD",
+    "failoverProfile": null,
+    "lockoutAttempts": 5,
+    "lockoutEnabled": true,
+    "lockoutWindow": 15,
+    "scheduleRestricted": false,
+    "type": "ADEASY"
+  },
+  "settings": {
+    "allowAnon": false,
+    "authenticationType": "AUTO",
+    "automaticSuffix": true,
+    "badgeAttribute": null,
+    "badgeSearchFilter": null,
+    "connectionPassword": {
+      "data": {
+        "ciphertext": "xkljctLF8c8DPA",
+        "encrypted_key": "SIZ_5h4vdEhEfum6sa8oarmCF87j4cGcOXgXB5ZxjH0hkCtAodny2g",
+        "iv": "dzwamT7pGaHSS619",
+        "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODY2LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+        "tag": "eFyRc9aJRe53npVeV-boYA"
+      },
+      "type": "Embedded"
+    },
+    "connectionUsername": "tlovin",
+    "domain": "testsupport.local",
+    "emailAttribute": "mail",
+    "extraUserAttributes": [],
+    "fullNameAttribute": "name",
+    "groupRoleAttribute": "memberOf",
+    "host1": "10.10.65.22",
+    "host2": null,
+    "nestedGroups": false,
+    "pageSize": 1000,
+    "phoneAttribute": "telephoneNumber",
+    "port1": 389,
+    "port2": 389,
+    "readTimeout": 60000,
+    "referral": "FOLLOW",
+    "roleIdAttribute": {
+      "binary": false,
+      "name": "cn"
+    },
+    "roleNameAttribute": "cn",
+    "roleSearchBase": "",
+    "roleSearchFilter": "(objectClass\u003dgroup)",
+    "sSODomain": null,
+    "sSOEnabled": false,
+    "saslMechanism": "DIGEST-MD5 CRAM-MD5",
+    "saslMutualAuthentication": false,
+    "saslProtectionStrength": "high,medium,low",
+    "saslQualityOfProtection": "auth-conf,auth-int,auth",
+    "saslRealm": "",
+    "securityProtocol": "AUTO",
+    "smsAttribute": "mobile",
+    "usePrefixAndSuffixForGatewayUser": true,
+    "useSSL": false,
+    "userIdAttribute": {
+      "binary": false,
+      "name": "sAMAccountName"
+    },
+    "userListFilter": "(\u0026(objectClass\u003duser)(!(objectClass\u003dcomputer)))",
+    "userNameAttribute": "sAMAccountName",
+    "userPrefix": "",
+    "userRoleAttribute": "memberOf",
+    "userSearchBase": "",
+    "userSearchFilter": "(\u0026(objectClass\u003duser)(sAMAccountName\u003d{0}))",
+    "userSuffix": ""
+  }
+}

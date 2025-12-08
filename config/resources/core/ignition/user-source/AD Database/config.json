@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "cacheValidationTimeout": 1,
+    "failoverMode": "HARD",
+    "failoverProfile": null,
+    "lockoutAttempts": 5,
+    "lockoutEnabled": true,
+    "lockoutWindow": 15,
+    "scheduleRestricted": false,
+    "type": "AD_DB_HYBRID"
+  },
+  "settings": {
+    "database": {
+      "badgeAuthQuery": null,
+      "contactInfoQuery": null,
+      "datasource": "MSSQL",
+      "extraPropsQuery": null,
+      "findUserQuery": null,
+      "roleQuery": null,
+      "scheduleAdjustmentQuery": null,
+      "userPropsQuery": null,
+      "userQuery": null,
+      "userRoleQuery": null
+    },
+    "ldap": {
+      "allowAnon": false,
+      "authenticationType": "AUTO",
+      "automaticSuffix": true,
+      "connectionPassword": {
+        "data": {
+          "ciphertext": "LMI4w-ayZmsecw",
+          "encrypted_key": "03F99H278ZS4jap5sZ2CpvYfZxamY6CPSL6-3WhHfFum32pqp8qqJw",
+          "iv": "61k4KNs4rBhqhw7j",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODY2LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+          "tag": "o2IWTMISMFzC_nrFZ6c86Q"
+        },
+        "type": "Embedded"
+      },
+      "connectionUsername": "tlovin",
+      "domain": "testsupport.local",
+      "extraUserAttributes": [],
+      "host1": "10.10.65.22",
+      "host2": null,
+      "listUsersFromAD": true,
+      "pageSize": 1000,
+      "port1": 389,
+      "port2": 389,
+      "readTimeout": 60000,
+      "referral": "FOLLOW",
+      "saslMechanism": "DIGEST-MD5 CRAM-MD5",
+      "saslMutualAuthentication": false,
+      "saslProtectionStrength": "high,medium,low",
+      "saslQualityOfProtection": "auth-conf,auth-int,auth",
+      "saslRealm": "",
+      "securityProtocol": "AUTO",
+      "ssoDomain": null,
+      "ssoEnabled": false,
+      "usePrefixAndSuffixForGatewayUser": true,
+      "useSSL": false,
+      "userIdAttribute": {
+        "binary": false,
+        "name": "sAMAccountName"
+      },
+      "userListBase": "",
+      "userListFilter": "(\u0026(objectClass\u003duser)(!(objectClass\u003dcomputer)))",
+      "userNameAttribute": "sAMAccountName",
+      "userPrefix": null,
+      "userSearchFilter": "(\u0026(objectClass\u003duser)(sAMAccountName\u003d{0}))",
+      "userSuffix": null
+    }
+  }
+}

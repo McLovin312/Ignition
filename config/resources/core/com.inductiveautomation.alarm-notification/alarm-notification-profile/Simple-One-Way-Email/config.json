@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "type": "OneWayNotificationProfileType"
+  },
+  "settings": {
+    "advanced": {
+      "fromAddress": null
+    },
+    "criteria": {
+      "maxPriority": "Critical",
+      "minPriority": "Low"
+    },
+    "settings": {
+      "emailProfile": "Papercut",
+      "roster": null
+    }
+  }
+}

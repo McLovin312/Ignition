@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "cacheValidationTimeout": 15,
+    "failoverMode": "HARD",
+    "lockoutAttempts": 5,
+    "lockoutEnabled": true,
+    "lockoutWindow": 15,
+    "scheduleRestricted": false,
+    "type": "ADHYBRID"
+  },
+  "settings": {
+    "ldap": {
+      "allowAnon": false,
+      "authenticationType": "AUTO",
+      "automaticSuffix": true,
+      "connectTimeout": 0,
+      "connectionPassword": {
+        "data": {
+          "ciphertext": "848PkLIfXcMnjw",
+          "encrypted_key": "np3DlROVnfgy-nzNVgiONOUEb_LjqRvqy98Il6pH_psd9rmhiVUtRQ",
+          "iv": "ZL0nWL4Bn43sgy2v",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzYzNTgxNzU0LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+          "tag": "t3_ZePjGrs664au_nXkJwA"
+        },
+        "type": "Embedded"
+      },
+      "connectionUsername": "tlovin",
+      "domain": "testsupport.local",
+      "emailAttribute": "mail",
+      "extraUserAttributes": [],
+      "fullNameAttribute": "name",
+      "host1": "10.10.65.22",
+      "host2": "",
+      "pageSize": 1000,
+      "phoneAttribute": "telephoneNumber",
+      "port1": 389,
+      "port2": 389,
+      "readTimeout": 60000,
+      "referral": "FOLLOW",
+      "saslMechanism": "DIGEST-MD5 CRAM-MD5",
+      "saslMutualAuthentication": false,
+      "saslProtectionStrength": "high,medium,low",
+      "saslQualityOfProtection": "auth-conf,auth-int,auth",
+      "saslRealm": "",
+      "securityProtocol": "AUTO",
+      "smsAttribute": "mobile",
+      "ssoDomain": "",
+      "ssoEnabled": false,
+      "usePrefixAndSuffixForGatewayUser": true,
+      "useSSL": false,
+      "userIdAttribute": {
+        "binary": true,
+        "name": "objectGUID"
+      },
+      "userListBase": "",
+      "userListFilter": "(\u0026(objectClass\u003duser)(!(objectClass\u003dcomputer)))",
+      "userNameAttribute": "sAMAccountName",
+      "userPrefix": "",
+      "userSearchFilter": "(\u0026(objectClass\u003duser)(sAMAccountName\u003d{0}))",
+      "userSuffix": ""
+    },
+    "listUsersFromAD": true,
+    "populateUsersOnDemand": false
+  }
+}

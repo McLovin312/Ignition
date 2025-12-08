@@ -1,0 +1,58 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Batteries"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "BatteriesAccordion"
+        },
+        "position": {
+          "basis": "300px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.items": {
+            "binding": {
+              "config": {
+                "queryPath": "Batteries/SELECT All Batteries and Locations",
+                "returnFormat": "json"
+              },
+              "transforms": [
+                {
+                  "code": "\titems \u003d []\n\ttrue \u003d True\n\tfalse \u003d False\n\tfor row in value:\n\t\tsingleItem \u003d {\n\t\t  \"expanded\": false,\n\t\t  \"header\": {\n\t\t    \"toggle\": {\n\t\t      \"enabled\": true,\n\t\t      \"expandedIcon\": {\n\t\t        \"path\": \"material/expand_less\",\n\t\t        \"color\": \"\",\n\t\t        \"style\": {\n\t\t          \"classes\": \"\"\n\t\t        }\n\t\t      },\n\t\t      \"collapsedIcon\": {\n\t\t        \"path\": \"material/expand_more\",\n\t\t        \"color\": \"\",\n\t\t        \"style\": {\n\t\t          \"classes\": \"\"\n\t\t        }\n\t\t      }\n\t\t    },\n\t\t    \"content\": {\n\t\t      \"type\": \"text\",\n\t\t      \"text\": \"\",\n\t\t      \"useDefaultViewWidth\": false,\n\t\t      \"useDefaultViewHeight\": false,\n\t\t      \"viewPath\": \"\",\n\t\t      \"viewParams\": {},\n\t\t      \"style\": {\n\t\t        \"classes\": \"\"\n\t\t      }\n\t\t    },\n\t\t    \"height\": \"40px\",\n\t\t    \"reverse\": false,\n\t\t    \"style\": {\n\t\t      \"classes\": \"\"\n\t\t    }\n\t\t  },\n\t\t  \"body\": {\n\t\t    \"viewPath\": \"Batteries/Single Battery\",\n\t\t    \"viewParams\": {\n\t\t      \"batteryID\": row[\"batteryID\"],\n\t\t      \"location\": row[\"location\"]\n\t\t    },\n\t\t    \"useDefaultViewWidth\": false,\n\t\t    \"useDefaultViewHeight\": true,\n\t\t    \"height\": \"auto\",\n\t\t    \"style\": {\n\t\t      \"classes\": \"\"\n\t\t    }\n\t\t  }\n\t\t}\n\t\titems.append(singleItem)\n\t\t# set the first one to be expanded\n\t\titems[0][\"expanded\"] \u003d True\n\treturn items",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "type": "ia.display.accordion"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

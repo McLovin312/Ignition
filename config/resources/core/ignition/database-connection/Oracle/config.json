@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:oracle:thin:@localhost:1521:XE",
+  "connectionProps": null,
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "Oracle Database",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": null,
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "LAZrtxHs3BVRnw",
+      "encrypted_key": "M_tGHVNWLCYa_C8teB-LV-w7FZtuTBGbVRgEmHSb53y8qytGONEDtw",
+      "iv": "TXSGPVY65sb_7mwm",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODU4LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+      "tag": "l-YDvD47VsYmmlxa5xXN4g"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "ORACLE",
+  "username": "SYSTEM",
+  "validationQuery": "SELECT 1 FROM DUAL",
+  "validationSleepTime": 10000
+}

@@ -1,0 +1,124 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 631,
+      "width": 364
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "72px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Workorders"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "PanelRepeater"
+        },
+        "position": {
+          "basis": "500px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.instances": {
+            "binding": {
+              "config": {
+                "polling": {
+                  "enabled": true,
+                  "rate": "30"
+                },
+                "queryPath": "Workorders/SELECT All Incomplete Workorders",
+                "returnFormat": "json"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "justify": "center",
+          "path": "Workorders/Single Workorder",
+          "wrap": "wrap"
+        },
+        "scripts": {
+          "customMethods": [],
+          "extensionFunctions": null,
+          "messageHandlers": [
+            {
+              "messageType": "refreshWorkorders",
+              "pageScope": true,
+              "script": "\tself.refreshBinding(\"props.instances\")",
+              "sessionScope": true,
+              "viewScope": true
+            }
+          ]
+        },
+        "type": "ia.display.flex-repeater"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "draggable": true,
+                "id": "addWorkorder",
+                "modal": false,
+                "overlayDismiss": false,
+                "position": {
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10,
+                  "top": 10
+                },
+                "positionType": "exact",
+                "resizable": true,
+                "showCloseIcon": true,
+                "type": "open",
+                "viewPath": "Workorders/Add Workorder",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "props": {
+          "style": {
+            "classes": "formButton"
+          },
+          "text": "Add Workorder",
+          "textStyle": {
+            "margin": 30
+          }
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

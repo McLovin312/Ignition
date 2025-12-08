@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "backgroundImage": "url(\u0027/system/images/Acme/st vrain.jpg\u0027)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "100%"
+    }
+  }
+}

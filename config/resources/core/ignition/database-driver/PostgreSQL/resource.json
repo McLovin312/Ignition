@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "description": "The official PostgreSQL JDBC Driver.",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "postgresql-42.7.2.jar"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2025-10-07T16:17:38Z"
+    },
+    "uuid": "b5f70e82-570b-4d45-9a5b-a9738a981710",
+    "lastModificationSignature": "c92e7a0e0aeaa6ef2d1d82dc6e2051f4fbfa7517610db397db92a2598251db4a",
+    "enabled": true
+  }
+}

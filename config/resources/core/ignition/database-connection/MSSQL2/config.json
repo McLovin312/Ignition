@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:sqlserver://10.10.60.128\\SQLEXPRESS",
+  "connectionProps": "databaseName\u003dtest;trustServerCertificate\u003dtrue",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "Microsoft SQLServer",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": "",
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "NceEfPnBiMxUvVZ_QHXjslciE8Pp3mY3-_tksQun",
+      "encrypted_key": "Ocli8kFLOCboObsnlKeSdZCc8ZoLXboD2gauKMnVBqMV8GwIHk6voQ",
+      "iv": "jcocnA4V7Ij7iyZL",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzYzNzQ5NjMwLCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+      "tag": "127LP0fP6qAvO3prBk2VNA"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "MSSQL",
+  "username": "sa",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

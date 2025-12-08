@@ -1,0 +1,68 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 685,
+      "width": 1055
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Batteries"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "BatteriesRepeater"
+        },
+        "position": {
+          "basis": "320px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.instances": {
+            "binding": {
+              "config": {
+                "queryPath": "Batteries/SELECT All Batteries and Locations",
+                "returnFormat": "json"
+              },
+              "transforms": [
+                {
+                  "code": "\tinstances \u003d []\n\tfor battery in value:\n\t\tinstance \u003d {\n \t\t\t\"batteryID\":battery[\"batteryID\"],\n \t\t\t\"location\":battery[\"location\"]\n\t\t}  \n\t\tinstances.append(instance)\n\treturn instances",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "justify": "center",
+          "path": "Batteries/Single Battery",
+          "wrap": "wrap"
+        },
+        "type": "ia.display.flex-repeater"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

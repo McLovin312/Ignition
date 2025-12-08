@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "color": "#06276B",
+      "fontWeight": "bold",
+      "paddingLeft": "8px"
+    }
+  }
+}

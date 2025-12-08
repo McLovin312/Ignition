@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 853,
+      "width": 428
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "BatteriesLarge"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Batteries/Batteries Large"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "BatteriesSmall"
+        },
+        "props": {
+          "path": "Batteries/Batteries Small"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "breakpoint": 1100
+    },
+    "type": "ia.container.breakpt"
+  }
+}

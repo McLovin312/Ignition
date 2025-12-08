@@ -1,0 +1,37 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Workorders/Workorders Large"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_0"
+        },
+        "props": {
+          "path": "Workorders/Workorders Small"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "breakpoint": 1100
+    },
+    "type": "ia.container.breakpt"
+  }
+}

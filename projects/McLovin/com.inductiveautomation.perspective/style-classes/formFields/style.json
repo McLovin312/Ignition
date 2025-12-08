@@ -1,0 +1,17 @@
+{
+  "base": {
+    "style": {
+      "marginRight": "8px"
+    }
+  },
+  "variants": [
+    {
+      "pseudo": "focus",
+      "style": {
+        "borderColor": "#BF5701",
+        "borderStyle": "solid",
+        "borderWidth": "8px"
+      }
+    }
+  ]
+}

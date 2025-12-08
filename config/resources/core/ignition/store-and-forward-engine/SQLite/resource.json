@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2025-10-07T16:17:37Z"
+    },
+    "lastModificationSignature": "ea6102d19e60e164f26ee45b26fd90b54e8eff697afeb0bc2fcfc26c8dee85aa",
+    "enabled": true
+  }
+}

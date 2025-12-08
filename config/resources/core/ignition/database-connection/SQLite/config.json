@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:sqlite:C:/Path/To/File.db",
+  "connectionProps": null,
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "SQLite",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": null,
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "hZp3",
+      "encrypted_key": "vynJ7aoIQ7zALbvJR7aYNT0ob2PGkOlYd12kWIdeDv-QBqHkazCuZQ",
+      "iv": "WaI5cATY569Ri3zv",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzU5ODUzODU4LCJ6aXAiOiJERUYiLCJraWQiOiI3NjA4NzY3ZC1hNjBlLTQ2NjEtOGRlMS00OWFlMjViNTcwZGUifQ",
+      "tag": "FdX3SI3pF1miVJou46ergQ"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "SQLITE",
+  "username": "ad",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

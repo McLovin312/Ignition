@@ -1,0 +1,228 @@
+[
+  {
+    "typeColor": -3195563,
+    "name": "Battery",
+    "parameters": {
+      "batteryNumber": {
+        "dataType": "Integer",
+        "value": null
+      },
+      "location": {
+        "dataType": "String",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Storage/{location}/Battery {batteryNumber}/Charge"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Charge",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Storage/{location}/Battery {batteryNumber}/Health"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Health",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Storage/{location}/Battery {batteryNumber}/Load"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "alarms": [
+          {
+            "mode": "AboveValue",
+            "name": "High Battery Load",
+            "setpointA": {
+              "bindType": "Tag",
+              "value": "[.]LoadSP"
+            },
+            "displayPath": {
+              "bindType": "Expression",
+              "value": "\"Battery \" + {batteryNumber} + \" High Load\""
+            }
+          }
+        ],
+        "name": "Load",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "name": "LoadSP",
+        "value": 103,
+        "tagType": "AtomicTag"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Storage/{location}/Battery {batteryNumber}/Voltage"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "alarms": [
+          {
+            "mode": "AboveValue",
+            "name": "High Voltage",
+            "setpointA": {
+              "bindType": "Tag",
+              "value": "[.]VoltageSP"
+            },
+            "displayPath": {
+              "bindType": "Expression",
+              "value": "\"Battery \" + {batteryNumber} + \" High Voltage\""
+            }
+          }
+        ],
+        "name": "Voltage",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "name": "VoltageSP",
+        "value": 125,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "typeColor": -16721857,
+    "name": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": null
+      },
+      "location": {
+        "dataType": "String",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Efficiency"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Efficiency",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Fault"
+        },
+        "valueSource": "opc",
+        "dataType": "Boolean",
+        "historyProvider": "Solar",
+        "name": "Fault",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Maintenance Flag"
+        },
+        "valueSource": "opc",
+        "dataType": "Boolean",
+        "historyProvider": "Solar",
+        "name": "Maintenance Flag",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Temperature"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Temperature",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Voltage"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Voltage",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Acme_Solar]Intake/{location}/Panel {panelNumber}/Watts"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "historyProvider": "Solar",
+        "name": "Watts",
+        "historyEnabled": false,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "New Type",
+    "typeId": null,
+    "parameters": {
+      "type": {
+        "dataType": "String",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": {
+          "bindType": "parameter",
+          "binding": "{type}"
+        },
+        "name": "New Tag",
+        "value": 12,
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "base": {
+    "style": {
+      "fontFamily": "Roboto",
+      "fontSize": "24px",
+      "fontWeight": "bold"
+    }
+  },
+  "variants": [
+    {
+      "media": {
+        "feature": "maxWidth",
+        "value": "815px"
+      },
+      "style": {
+        "fontSize": "16px"
+      }
+    }
+  ]
+}

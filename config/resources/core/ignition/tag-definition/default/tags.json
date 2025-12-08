@@ -1,0 +1,90 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Simulator]_Meta:Writeable/WriteableString1",
+    "dataType": "String",
+    "name": "WriteableString1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "memory",
+    "historicalDeadband": 0.001,
+    "historyProvider": "MariaDB",
+    "dataType": "Float4",
+    "name": "HistoryTest",
+    "historyEnabled": true,
+    "defaultValue": 0.0,
+    "historyTagGroup": "TestHistory",
+    "tagGroup": "TestHistory",
+    "tagType": "AtomicTag",
+    "sampleMode": "TagGroup"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "now()%40",
+    "historyProvider": "MSSQL2",
+    "name": "Test",
+    "historyEnabled": true,
+    "includeMetadata": false,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "datasource": "MSSQL",
+    "query": "SELECT TOP 1 t.name\r\nFROM sys.tables t\r\nWHERE t.name LIKE \u0027sqlt_data_1\\_%\u0027 ESCAPE \u0027\\\u0027\r\nORDER BY TRY_CAST(REPLACE(t.name, \u0027sqlt_data_1_\u0027, \u0027\u0027) AS bigint) DESC;\r\n",
+    "name": "Partition",
+    "defaultValue": "",
+    "tagGroup": "Query",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "now() % 40",
+    "historyProvider": "MySQL",
+    "name": "meta",
+    "historyEnabled": true,
+    "includeMetadata": true,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "db",
+    "datasource": "MSSQL",
+    "query": "SELECT AVG(intValue) FROM {[~]Partition}",
+    "name": "Query",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historicalDeadbandMode": "Off",
+    "alarms": [
+      {
+        "setpointA": 1.0,
+        "activePipeline": "McLovin/Alarm Email Active",
+        "name": "Alarm"
+      }
+    ],
+    "defaultValue": false,
+    "tagType": "AtomicTag",
+    "eventScripts": [
+      {
+        "eventid": "valueChanged",
+        "script": "\tpopupId \u003d \"popUpID\"\n\tviewPath \u003d \"popup\"  # insert your view path here\n\tlogger \u003d system.util.getLogger(\"POPUP\")\n\tsessions \u003d system.perspective.getSessionInfo()\n\tfor session in sessions:\n\t\tfor pageId in session.pageIds:\n\t\t\tlogger.info(\"{0} | {1}\".format(session.id, pageId))\n\t\t\tlogger.info(str(type(session.id)))\n\t\n\t\t\tif currentValue and currentValue.value:  # I added an additional safety check for first time use here\n\t\t\t\tsystem.perspective.openPopup(popupId, viewPath, sessionId\u003dsession.id, pageId\u003dpageId)\n\t\t\t\tlogger.info(\"openPopup complete\")\n\t\t\telse:\n\t\t\t\t# note no viewPath arg\n\t\t\t\tsystem.perspective.closePopup(popupId, sessionId\u003dsession.id, pageId\u003dpageId)"
+      }
+    ],
+    "dataType": "Boolean",
+    "historyProvider": "MySQL",
+    "name": "New Tag",
+    "historyEnabled": true,
+    "sampleMode": "Periodic",
+    "historySampleRate": 5
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "name": "string",
+    "defaultValue": "04:00",
+    "tagType": "AtomicTag"
+  }
+]

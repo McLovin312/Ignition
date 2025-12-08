@@ -1,0 +1,20 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "handleTimerEvent.py"
+  ],
+  "attributes": {
+    "sharedThread": true,
+    "delay": 10000,
+    "lastModificationSignature": "87b2333e86f2052d2a48f7ca1d514951f307038aab14dbbccd8228f5bde5686d",
+    "fixedDelay": true,
+    "lastModification": {
+      "actor": "tlovin",
+      "timestamp": "2025-12-02T16:24:15Z"
+    },
+    "enabled": false
+  }
+}

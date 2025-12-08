@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Panel 10",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 10
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 12",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 12
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 16",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 16
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 1",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 1
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 7",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 7
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 4",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 11",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 11
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 9",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 9
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 8",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 8
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 3",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 13",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 13
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 6",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 6
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 15",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 15
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 2",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 5",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 5
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 14",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 14
+      },
+      "location": {
+        "dataType": "String",
+        "value": "Middlegate"
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "custom": {
+    "location": [
+      {
+        "lat": 34.41997,
+        "long": -103.49489,
+        "name": "St Vrain"
+      }
+    ]
+  },
+  "params": {
+    "site": "St Vrain"
+  },
+  "propConfig": {
+    "custom.location": {
+      "binding": {
+        "config": {
+          "parameters": {
+            "location": "{view.params.site}"
+          },
+          "queryPath": "Locations/Select Location Info",
+          "returnFormat": "json"
+        },
+        "type": "query"
+      },
+      "persistent": true
+    },
+    "params.site": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "SiteHeader"
+        },
+        "position": {
+          "basis": "72px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.custom.location[0].name"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "siteHeader"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Markdown"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "propConfig": {
+          "props.source": {
+            "binding": {
+              "config": {
+                "expression": "{view.params.site}"
+              },
+              "transforms": [
+                {
+                  "code": "\tsite \u003d value.capitalize()\n\t\n\t#get the panel info\n\ttags \u003d system.tag.browse(\u0027[default]/Intake/\u0027 + site)\n\tnumPanels \u003d len(tags)\n\tnumFaulted \u003d 0\n\tnumMaint \u003d 0\n\tfor panel in tags:\n\t\tfault\t\u003d system.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/Fault\")\n\t\tif fault[0].value:\n\t\t\tnumFaulted \u003d numFaulted + 1\n\t\tmaintenance \u003d \tsystem.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/Maintenance Flag\")\n\t\tif maintenance[0].value:\n\t\t\tnumMaint \u003d numMaint + 1\n\t\t\t\n\t#get the battery info\n\ttags \u003d system.tag.browse(\u0027[default]/Storage/\u0027 + site)\n\tnumBatteries \u003d len(tags)\n\tnumHighVolts \u003d 0\n\tnumHighLoad \u003d 0\n\tfor battery in tags:\n\t\tvoltage \u003d system.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/Voltage\")\n\t\tvoltageSP \u003d system.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/VoltageSP\")\n\t\tif voltage[0].value \u003e voltageSP[0].value:\n\t\t\tnumHighVolts \u003d numHighVolts + 1\n\t\tload \u003d system.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/Load\")\n\t\tloadSP \u003d system.tag.readBlocking(str(panel[\u0027fullPath\u0027]) + \"/LoadSP\")\n\t\tif load[0].value \u003e loadSP[0].value:\n\t\t\tnumHighLoad \u003d numHighLoad \n\t\t\t\n\t#get weather info\n\tcurrentTemp \u003d self.parent.custom.weather.main.temp\n\thumidity \u003d self.parent.custom.weather.main.humidity\n\tdescription \u003d self.parent.custom.weather.weather[0].description\n\tmarkdownString \u003d \"\u003cdiv\u003e\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eTotal Panels:\u003c/span\u003e \" + str(numPanels) + \"\u003c/p\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cp class\u003d\u0027mdErrorLabel\u0027\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eFauled Panels:\u003c/span\u003e  \" + str(numFaulted) + \"\u003c/p\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cp class\u003d\u0027mdErrorLabel\u0027\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003ePanels in Maintenance Mode:\u003c/span\u003e  \" + str(numMaint) + \"\u003c/p\u003e\u003c/div\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cdiv\u003e\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eTotal Batteries:\u003c/span\u003e \" + str(numBatteries) + \"\u003c/p\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cp class\u003d\u0027mdErrorLabel\u0027\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eHigh Voltage Batteries:\u003c/span\u003e  \" + str(numHighVolts) + \"\u003c/p\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cp class\u003d\u0027mdErrorLabel\u0027\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eHigh Load Batteries: \u003c/span\u003e \" + str(numHighLoad) + \"\u003c/p\u003e\u003c/div\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cdiv\u003e\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eCurrent temp: \u003c/span\u003e\" + str(currentTemp) + \"\u0026deg;\u003c/p\u003e\"\n\tmarkdownString \u003d markdownString + \"\u003cp\u003e\" + description.capitalize() + \"\u003c/p\u003e\u003c/div\u003e\"\n\treturn markdownString",
+                  "type": "script"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "markdown": {
+            "escapeHtml": false
+          },
+          "style": {
+            "classes": "siteMarkdown"
+          }
+        },
+        "type": "ia.display.markdown"
+      }
+    ],
+    "custom": {
+      "weather": {
+        "base": "stations",
+        "clouds": {
+          "all": 26
+        },
+        "cod": 200,
+        "coord": {
+          "lat": 34.42,
+          "lon": -103.4949
+        },
+        "dt": 1759531186,
+        "id": 5470124,
+        "main": {
+          "feels_like": 82.08,
+          "grnd_level": 869,
+          "humidity": 21,
+          "pressure": 1013,
+          "sea_level": 1013,
+          "temp": 84.99,
+          "temp_max": 84.99,
+          "temp_min": 84.99
+        },
+        "name": "Grier",
+        "sys": {
+          "country": "US",
+          "sunrise": 1759495807,
+          "sunset": 1759538128
+        },
+        "timezone": -21600,
+        "visibility": 10000,
+        "weather": [
+          {
+            "description": "scattered clouds",
+            "icon": "03d",
+            "id": 802,
+            "main": "Clouds"
+          }
+        ],
+        "wind": {
+          "deg": 189,
+          "gust": 15.12,
+          "speed": 16.2
+        }
+      }
+    },
+    "events": {
+      "system": {
+        "onStartup": {
+          "config": {
+            "script": "\t# Get latitude and longitude coordinates from custom prop\n\tlat \u003d self.view.custom.location[0].lat\n\tlng \u003d self.view.custom.location[0].long\n\t# Call the weather API to get weather information for coordinates above. \n\tcallURL \u003d \"https://api.openweathermap.org/data/2.5/weather?lat\u003d\" + str(lat) + \"\u0026lon\u003d\" + str(lng) + \"\u0026appid\u003daf96a3049234149e6f0e5eb85a7bdfff\u0026units\u003dimperial\"\n\tcallResult \u003d system.net.httpGet(callURL)\n\tcallResult \u003d system.util.jsonDecode(str(callResult))\n\t\n\tself.custom.weather \u003d callResult"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "props.style.classes": {
+        "binding": {
+          "config": {
+            "path": "view.params.site"
+          },
+          "transforms": [
+            {
+              "code": "\tvalue \u003d value.replace(\u0027 \u0027, \u0027\u0027)\n\treturn \u0027siteCard\u0027 + value",
+              "type": "script"
+            }
+          ],
+          "type": "property"
+        }
+      }
+    },
+    "props": {
+      "direction": "column",
+      "style": {}
+    },
+    "type": "ia.container.flex"
+  }
+}

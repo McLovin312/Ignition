@@ -1,0 +1,669 @@
+{
+  "custom": {},
+  "params": {
+    "batteryID": 1,
+    "location": "Plata"
+  },
+  "propConfig": {
+    "params.batteryID": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.location": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 380,
+      "width": 475
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "BatteryID"
+            },
+            "position": {
+              "basis": "60px"
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "expression": "\"Battery \" + {view.params.batteryID}"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "batteryHeader"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Car battery"
+            },
+            "position": {
+              "basis": "100px",
+              "shrink": 0
+            },
+            "props": {
+              "elements": [
+                {
+                  "d": "M21,398 l485,0 0,-364 -485,0 0,364z",
+                  "fill": {
+                    "paint": "#000"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4c4c4c",
+                    "width": "2"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M14,64 l500,0 0,31 -500,0 0,-31z",
+                  "fill": {
+                    "paint": "#000"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#7f7f7f",
+                    "width": "2"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M37,34 l30,0 0,-7 -30,0 0,7z",
+                  "fill": {
+                    "paint": "#000"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#7f7f7f",
+                    "width": "2"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M461,34 l30,0 0,-7 -30,0 0,7z",
+                  "fill": {
+                    "paint": "#000"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#7f7f7f",
+                    "width": "2"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M14,50 l-14,14 0,31 28,0 0,-31 -14,14 0,-28 -14,0 0,14z",
+                  "fill": {
+                    "paint": "#7f7f7f"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M528,64 l-14,-14 -500,0 0,28 500,0 -14,-14 28,0 0,-14 -14,0z",
+                  "fill": {
+                    "paint": "#7f7f7f"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M514,95 l14,0 0,-31 -28,0 0,31 14,0z",
+                  "fill": {
+                    "paint": "#7f7f7f"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M465,27 l22,0 0,-27 -22,0 0,27z",
+                  "fill": {
+                    "paint": "#7f7f7f"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4c4c4c",
+                    "width": "2"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M41,27 l22,0 0,-27 -22,0 0,27z",
+                  "fill": {
+                    "paint": "#7f7f7f"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4c4c4c",
+                    "width": "2"
+                  },
+                  "type": "path"
+                }
+              ],
+              "viewBox": "0 0 528 398"
+            },
+            "type": "ia.shapes.svg"
+          },
+          {
+            "meta": {
+              "name": "Markdown"
+            },
+            "position": {
+              "basis": "200px"
+            },
+            "propConfig": {
+              "props.source": {
+                "binding": {
+                  "config": {
+                    "expression": "\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eLocation:\u003c/span\u003e \" + {view.params.location} + \"\u003c/p\u003e\" + \r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eModel:\u003c/span\u003e \" + {/root.custom.data[0].model} + \"\u003c/p\u003e\" +\r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eType:\u003c/span\u003e \" + {/root.custom.data[0].type} + \"\u003c/p\u003e\" + \r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003ePower Rating:\u003c/span\u003e \"+ {/root.custom.data[0].power_rating} + \"\u003c/p\u003e\" + \r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eCapacity:\u003c/span\u003e \" + {/root.custom.data[0].capacity} + \"\u003c/p\u003e\" + \r\n\"\u003cp\u003e\u003cspan class\u003d\u0027mdLabel\u0027\u003eDate Purchased:\u003c/span\u003e\u003cbr\u003e\" + dateFormat({/root.custom.data[0].date_purchased}, \"MM-dd-yyyy\") + \"\u003c/p\u003e\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "markdown": {
+                "escapeHtml": false
+              },
+              "style": {
+                "classes": "batteryLabel markdown"
+              }
+            },
+            "type": "ia.display.markdown"
+          }
+        ],
+        "meta": {
+          "name": "LeftColumn"
+        },
+        "position": {
+          "basis": "45%",
+          "grow": 1
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "HealthLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel"
+                  },
+                  "text": "Health:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "HealthLED"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Health"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "HealthContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "ChargeLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel"
+                  },
+                  "text": "Charge:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "ChargeLED"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Charge"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "ChargeContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "LoadLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Load"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tloadSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + self.view.params.location + \u0027/Battery \u0027 + str(self.view.params.batteryID) + \u0027/LoadSP\u0027)\n\tloadSPValue \u003d loadSPTag[0].value\n\tif value \u003e loadSPValue:\n\t\tself.props.style.classes \u003d \u0027batteryLabel batteryLabelError\u0027\n\telse:\n\t\tself.props.style.classes \u003d \u0027batteryLabel\u0027\n\treturn \u0027Load:\u0027",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel batteryLabelError"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "LoadLED"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Load"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "LoadContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "VoltageLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Voltage"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tvoltSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + self.view.params.location + \u0027/Battery \u0027 + str(self.view.params.batteryID) + \u0027/VoltageSP\u0027)\n\tvoltSPValue \u003d voltSPTag[0].value\n\tif value \u003e voltSPValue:\n\t\tself.props.style.classes \u003d \u0027batteryLabel batteryLabelError\u0027\n\telse:\n\t\tself.props.style.classes \u003d \u0027batteryLabel\u0027\n\treturn \u0027Voltage:\u0027",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel batteryLabelError"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "VoltageLED"
+                },
+                "position": {
+                  "basis": "50%",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Voltage"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.led-display"
+              }
+            ],
+            "meta": {
+              "name": "VoltageContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "LoadSPLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Load"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tloadSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + self.view.params.location + \u0027/Battery \u0027 + str(self.view.params.batteryID) + \u0027/LoadSP\u0027)\n\tloadSPValue \u003d loadSPTag[0].value\n\tif value \u003e loadSPValue:\n\t\tself.props.style.classes \u003d \u0027batteryLabel batteryLabelError\u0027\n\telse:\n\t\tself.props.style.classes \u003d \u0027batteryLabel\u0027\n\treturn \u0027LoadSP:\u0027",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel batteryLabelError"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "LoadSPInput"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/LoadSP"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "spinner": {
+                    "enabled": false
+                  },
+                  "style": {
+                    "classes": "formFields"
+                  }
+                },
+                "type": "ia.input.numeric-entry-field"
+              }
+            ],
+            "meta": {
+              "name": "LoadSPContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "VoltSPLabel"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/Voltage"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\tvoltSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + self.view.params.location + \u0027/Battery \u0027 + str(self.view.params.batteryID) + \u0027/VoltageSP\u0027)\n\tvoltSPValue \u003d voltSPTag[0].value\n\tif value \u003e voltSPValue:\n\t\tself.props.style.classes \u003d \u0027batteryLabel batteryLabelError\u0027\n\telse:\n\t\tself.props.style.classes \u003d \u0027batteryLabel\u0027\n\treturn \u0027VoltsSP:\u0027",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "classes": "batteryLabel batteryLabelError"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "VoltSPInput"
+                },
+                "position": {
+                  "basis": "50%"
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "batteryID": "{view.params.batteryID}",
+                          "location": "{view.params.location}"
+                        },
+                        "tagPath": "[default]Storage/{location}/Battery {batteryID}/VoltageSP"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "spinner": {
+                    "enabled": false
+                  },
+                  "style": {
+                    "classes": "formFields"
+                  }
+                },
+                "type": "ia.input.numeric-entry-field"
+              }
+            ],
+            "meta": {
+              "name": "VoltSPContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "RightColumn"
+        },
+        "position": {
+          "basis": "55%",
+          "grow": 1
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "classes": "batteryColumnDivider"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.data": {
+        "binding": {
+          "config": {
+            "parameters": {
+              "batteryID": "{view.params.batteryID}"
+            },
+            "queryPath": "Batteries/SELECT Single Battery",
+            "returnFormat": "json"
+          },
+          "type": "query"
+        }
+      },
+      "props.style.classes": {
+        "binding": {
+          "config": {
+            "expression": "\u0027batteryCard\u0027"
+          },
+          "transforms": [
+            {
+              "code": "\tlocation \u003d self.view.params.location\n\tbatteryID \u003d str(self.view.params.batteryID)\n\tvoltageTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + location + \u0027/Battery \u0027 + batteryID + \u0027/Voltage\u0027)\n\tvoltage \u003d voltageTag[0].value\n\tvoltSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + location + \u0027/Battery \u0027 + batteryID + \u0027/VoltageSP\u0027)\n\tvoltSP \u003d voltSPTag[0].value\n\tloadTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + location + \u0027/Battery \u0027 + batteryID + \u0027/Load\u0027)\n\tload\u003d loadTag[0].value\n\tloadSPTag \u003d system.tag.readBlocking(\u0027[default]Storage/\u0027 + location + \u0027/Battery \u0027 + batteryID + \u0027/LoadSP\u0027)\n\tloadSP \u003d loadSPTag[0].value\n\tif voltage \u003e voltSP or load \u003e loadSP:\n\t\tvalue \u003d \u0027batteryCard batteryFault\u0027\n\telse:\n\t\tvalue \u003d \u0027batteryCard\u0027\n\treturn value",
+              "type": "script"
+            }
+          ],
+          "type": "expr"
+        }
+      }
+    },
+    "props": {
+      "style": {}
+    },
+    "type": "ia.container.flex"
+  }
+}

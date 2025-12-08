@@ -1,0 +1,52 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 126,
+      "width": 840
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "LargeHeader"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Docked Views/Docked Header Large"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "SmallHeader"
+        },
+        "props": {
+          "path": "Docked Views/Docked Header Small"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.activePage": {
+        "binding": {
+          "config": {
+            "path": "page.props.pageId"
+          },
+          "type": "property"
+        }
+      }
+    },
+    "props": {
+      "breakpoint": 1100
+    },
+    "type": "ia.container.breakpt"
+  }
+}

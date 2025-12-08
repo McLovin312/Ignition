@@ -1,0 +1,12 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#24E212",
+      "color": "#0000FF",
+      "fontSize": "24px",
+      "fontStyle": "italic",
+      "fontWeight": "bold",
+      "textAlign": "center"
+    }
+  }
+}

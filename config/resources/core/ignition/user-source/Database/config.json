@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "cacheValidationTimeout": 1,
+    "failoverMode": "HARD",
+    "failoverProfile": null,
+    "lockoutAttempts": 5,
+    "lockoutEnabled": true,
+    "lockoutWindow": 15,
+    "scheduleRestricted": false,
+    "type": "DATASOURCE"
+  },
+  "settings": {
+    "authQuery": null,
+    "badgeAuthQuery": null,
+    "contactInfoQuery": null,
+    "datasource": "MSSQL",
+    "enableUuids": false,
+    "extraPropsQuery": null,
+    "findUserQuery": null,
+    "mode": "Automatic",
+    "roleQuery": null,
+    "scheduleAdjustmentQuery": null,
+    "tableNamePrefix": "UserSource_",
+    "userQuery": null,
+    "userRoleQuery": null
+  }
+}

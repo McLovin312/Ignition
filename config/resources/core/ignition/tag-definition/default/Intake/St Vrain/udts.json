@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Panel 48",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 48
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 45",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 45
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 38",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 38
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 39",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 39
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 43",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 43
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 44",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 44
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 40",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 40
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 33",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 33
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 41",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 41
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 35",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 35
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 46",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 46
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 36",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 36
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 34",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 34
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 47",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 47
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 42",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 42
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Panel 37",
+    "typeId": "Panel",
+    "parameters": {
+      "panelNumber": {
+        "dataType": "Integer",
+        "value": 37
+      },
+      "location": {
+        "dataType": "String",
+        "value": "St Vrain"
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "arrow"
+    },
+    "/advancedStyleSheet": {
+      "title": "",
+      "viewPath": "Testing/Advanced Style Sheet"
+    },
+    "/batteries": {
+      "title": "",
+      "viewPath": "Batteries/Batteries Breakpoint"
+    },
+    "/singlepanel-grid": {
+      "title": "",
+      "viewPath": "Panels/Single Panel Grid"
+    },
+    "/sites/:site": {
+      "title": "",
+      "viewPath": "Sites/Single Site"
+    },
+    "/workorders": {
+      "title": "",
+      "viewPath": "Workorders/Workorders Breakpoint"
+    }
+  },
+  "sharedDocks": {
+    "bottom": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 900,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "footer",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 80,
+        "viewParams": {},
+        "viewPath": "Docked Views/Footer Breakpoint"
+      }
+    ],
+    "cornerPriority": "top-bottom",
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "header",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 100,
+        "viewParams": {},
+        "viewPath": "Docked Views/Header Breakpoint"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "kt.png"
+  ],
+  "attributes": {
+    "width": 242,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2025-10-07T16:17:40Z"
+    },
+    "size": 138419,
+    "lastModificationSignature": "0d7fcf48802a1a645ce4e40be0b02b0dc83980cea5921affd8940f12e8c00153",
+    "height": 253
+  }
+}

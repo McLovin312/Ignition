@@ -1,0 +1,148 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Button1"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 100,
+          "y": 100
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/advButtonStyle"
+          },
+          "text": "Button 1"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button2"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 500,
+          "y": 100
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/advButtonStyle2"
+          },
+          "text": "Button 2"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button4"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 500,
+          "y": 250
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/advButtonStyle4"
+          },
+          "text": "Button 4"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button3"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 100,
+          "y": 250
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/advButtonStyle3"
+          },
+          "text": "Button3"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button6"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 500,
+          "y": 400
+        },
+        "props": {
+          "text": "Button 6"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button5"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 100,
+          "y": 400
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/advButtonStyle5"
+          },
+          "text": "Button 5"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button8"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 500,
+          "y": 550
+        },
+        "props": {
+          "text": "Button 8"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button7"
+        },
+        "position": {
+          "height": 64,
+          "width": 200,
+          "x": 100,
+          "y": 550
+        },
+        "props": {
+          "text": "Button 7"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

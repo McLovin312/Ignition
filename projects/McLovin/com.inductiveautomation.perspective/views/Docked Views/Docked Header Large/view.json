@@ -1,0 +1,182 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 99,
+      "width": 1120
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AcmeLogo"
+        },
+        "position": {
+          "basis": "100px",
+          "shrink": 0
+        },
+        "props": {
+          "fit": {
+            "height": 150,
+            "mode": "contain",
+            "width": 150
+          },
+          "source": "/system/images/Acme/AcmeBlueLogo.png"
+        },
+        "type": "ia.display.image"
+      },
+      {
+        "meta": {
+          "name": "HorizontalMenu"
+        },
+        "position": {
+          "basis": "100%",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.items[3].items": {
+            "binding": {
+              "config": {
+                "path": "parent.custom.locations"
+              },
+              "transforms": [
+                {
+                  "code": "\titems \u003d []\n\tfor location in value:\n\t\titem \u003d {\n\t\t\t\"enabled\":True,\n\t\t\t\"icon\":{},\n\t\t    \"target\": \"/sites/\" + location[\u0027label\u0027],\n\t\t    \"label\": location[\u0027label\u0027],\n\t\t    \"style\": {\n\t\t      \"classes\": \"\"\n\t\t    }\n\t\t  }\n\t\titems.append(item)\n\treturn items\n\t\n#\t{\n#  \"enabled\": true,\n#  \"target\": \"\",\n#  \"items\": [\n#    {\n#      \"enabled\": true,\n#      \"target\": \"http://www.google.com\",\n#      \"items\": [],\n#      \"icon\": {\n#        \"path\": \"material/link\",\n#        \"color\": \"\"\n#      },\n#      \"label\": \"Link to Google\",\n#      \"style\": {\n#        \"classes\": \"\"\n#      }\n#    }",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "items": [
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "label": "Panels",
+              "style": {
+                "classes": ""
+              },
+              "target": "/"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "label": "Batteries",
+              "style": {
+                "classes": ""
+              },
+              "target": "/batteries"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "label": "Workorders",
+              "style": {
+                "classes": ""
+              },
+              "target": "/workorders"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "label": "Sites",
+              "style": {
+                "classes": ""
+              },
+              "target": ""
+            }
+          ]
+        },
+        "type": "ia.navigation.horizontalmenu"
+      }
+    ],
+    "custom": {
+      "weather": {
+        "base": "stations",
+        "clouds": {
+          "all": 0
+        },
+        "cod": 200,
+        "coord": {
+          "lat": 38.6531,
+          "lon": -121.1899
+        },
+        "dt": 1761255229,
+        "id": 5349705,
+        "main": {
+          "feels_like": 72.34,
+          "grnd_level": 1010,
+          "humidity": 60,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "temp": 72.55,
+          "temp_max": 75.31,
+          "temp_min": 70.3
+        },
+        "name": "Folsom",
+        "sys": {
+          "country": "US",
+          "id": 2006213,
+          "sunrise": 1761229333,
+          "sunset": 1761268533,
+          "type": 2
+        },
+        "timezone": -25200,
+        "visibility": 10000,
+        "weather": [
+          {
+            "description": "clear sky",
+            "icon": "01d",
+            "id": 800,
+            "main": "Clear"
+          }
+        ],
+        "wind": {
+          "deg": 300,
+          "speed": 3.44
+        }
+      }
+    },
+    "events": {
+      "system": {
+        "onStartup": {
+          "config": {
+            "script": "\t# Get latitude and longitude coordinates for IA HQ\n\tlat \u003d 38.65306\n\tlng \u003d -121.18991\n\t# Call the weather API to get weather information for coordinates above. \n\tcallURL \u003d \"https://api.openweathermap.org/data/2.5/weather?lat\u003d\" + str(lat) + \"\u0026lon\u003d\" + str(lng) + \"\u0026appid\u003daf96a3049234149e6f0e5eb85a7bdfff\u0026units\u003dimperial\"\n\tcallResult \u003d system.net.httpGet(callURL)\n\tcallResult \u003d system.util.jsonDecode(str(callResult))\n\t\n\tself.custom.weather \u003d callResult"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.locations": {
+        "binding": {
+          "config": {
+            "queryPath": "Locations/Select All Locations",
+            "returnFormat": "json"
+          },
+          "type": "query"
+        }
+      }
+    },
+    "props": {
+      "justify": "space-evenly"
+    },
+    "type": "ia.container.flex"
+  }
+}

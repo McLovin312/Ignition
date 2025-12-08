@@ -1,0 +1,279 @@
+{
+  "custom": {
+    "locations": [
+      {
+        "label": "Middlegate",
+        "value": 1
+      },
+      {
+        "label": "Plata",
+        "value": 2
+      },
+      {
+        "label": "St Vrain",
+        "value": 3
+      }
+    ]
+  },
+  "params": {},
+  "propConfig": {
+    "custom.locations": {
+      "binding": {
+        "config": {
+          "queryPath": "Locations/Select All Locations",
+          "returnFormat": "json"
+        },
+        "type": "query"
+      },
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 118
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "HorizontalMenu"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.items[3].items": {
+            "binding": {
+              "config": {
+                "path": "view.custom.locations"
+              },
+              "transforms": [
+                {
+                  "code": "\titems \u003d []\n\tfor location in value:\n\t\titem \u003d {\n\t\t\t\"enabled\":True,\n\t\t\t\"icon\":{},\n\t\t    \"target\": \"/sites/\" + location[\u0027label\u0027],\n\t\t    \"label\": location[\u0027label\u0027],\n\t\t    \"style\": {\n\t\t      \"classes\": \"\"\n\t\t    }\n\t\t  }\n\t\titems.append(item)\n\treturn items",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "items": [
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/wb_sunny"
+              },
+              "items": [],
+              "label": "",
+              "style": {
+                "classes": ""
+              },
+              "target": "/"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "color": "",
+                "path": "material/battery_charging_full"
+              },
+              "items": [],
+              "label": "",
+              "style": {
+                "classes": ""
+              },
+              "target": "/batteries"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/article"
+              },
+              "items": [],
+              "label": "",
+              "style": {
+                "classes": ""
+              },
+              "target": "/workorders"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/map"
+              },
+              "label": "",
+              "style": {
+                "classes": ""
+              },
+              "target": ""
+            }
+          ]
+        },
+        "type": "ia.navigation.horizontalmenu"
+      },
+      {
+        "meta": {
+          "name": "Carousel"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.views[0].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Middlegate[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.views[1].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Plata[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.views[2].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Middlegate[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "activePane": 2,
+          "appearance": {
+            "arrows": {
+              "enabled": false
+            },
+            "dots": {
+              "enabled": false
+            }
+          },
+          "autoplay": {
+            "enabled": true,
+            "transitionDelay": 5000
+          },
+          "views": [
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "Middlegate"
+              },
+              "viewPath": "Weather/Small Forecast Card"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "Plata"
+              },
+              "viewPath": "Weather/Small Forecast Card"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "St Vrain"
+              },
+              "viewPath": "Weather/Small Forecast Card"
+            }
+          ]
+        },
+        "type": "ia.display.carousel"
+      }
+    ],
+    "custom": {
+      "weather": {
+        "base": "stations",
+        "clouds": {
+          "all": 0
+        },
+        "cod": 200,
+        "coord": {
+          "lat": 38.6531,
+          "lon": -121.1899
+        },
+        "dt": 1753984889,
+        "id": 5349705,
+        "main": {
+          "feels_like": 79.09,
+          "grnd_level": 1008,
+          "humidity": 56,
+          "pressure": 1015,
+          "sea_level": 1015,
+          "temp": 79.09,
+          "temp_max": 84.7,
+          "temp_min": 76.64
+        },
+        "name": "Folsom",
+        "sys": {
+          "country": "US",
+          "id": 2006213,
+          "sunrise": 1753967139,
+          "sunset": 1754018187,
+          "type": 2
+        },
+        "timezone": -25200,
+        "visibility": 10000,
+        "weather": [
+          {
+            "description": "clear sky",
+            "icon": "01d",
+            "id": 800,
+            "main": "Clear"
+          }
+        ],
+        "wind": {
+          "deg": 253,
+          "gust": 5.01,
+          "speed": 3
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "classes": "footer"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

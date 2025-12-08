@@ -1,0 +1,193 @@
+{
+  "custom": {},
+  "params": {
+    "workorderID": 44
+  },
+  "propConfig": {
+    "params.workorderID": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 256,
+      "width": 320
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PanelNumber"
+        },
+        "position": {
+          "basis": "100px"
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "parent.custom.workorderData[0].Equipment"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "workorderHeader"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Description"
+        },
+        "position": {
+          "basis": "180px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "parent.custom.workorderData[0].Description"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "workorderLabel"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "events": {
+              "component": {
+                "onActionPerformed": {
+                  "config": {
+                    "script": "\t\n\t# Start the workorder\n\tworkorderID \u003d self.view.params.workorderID\n\tpath \u003d \"Workorders/UPDATE Workorder Start\"\n\tparams \u003d {\"workorderID\": workorderID}\n\tsystem.db.runNamedQuery(path, params)\n\t# Refresh the status binding and flex repeater showing all workorders\n\tsystem.perspective.sendMessage(\"refreshStatus\")\n\tsystem.perspective.sendMessage(\"refreshWorkorders\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "StartButton"
+            },
+            "position": {
+              "basis": "100%",
+              "grow": 1
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "expression": "{/root.custom.workorderData[0].Status} \u003d \u0027Unstarted\u0027"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "formButton"
+              },
+              "text": "Start"
+            },
+            "type": "ia.input.button"
+          },
+          {
+            "events": {
+              "component": {
+                "onActionPerformed": {
+                  "config": {
+                    "script": "\tworkorderID \u003d self.view.params.workorderID\n\t\n\t# Complete the workorder\n\tpath \u003d \"Workorders/UPDATE Workorder Complete\"\n\tparams \u003d {\"workorderID\": workorderID}\n\tsystem.db.runNamedQuery(path, params)\n\t\n\t# Refresh the status binding\n\tsystem.perspective.sendMessage(\"refreshStatus\")\n\tsystem.perspective.sendMessage(\"refreshWorkorders\")"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "CompleteButton"
+            },
+            "position": {
+              "basis": "100%",
+              "grow": 1
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "expression": "{/root.custom.workorderData[0].Status} \u003d \u0027In Progress\u0027"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": "formButton"
+              },
+              "text": "Complete"
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "ButtonContainer"
+        },
+        "position": {
+          "basis": "160px"
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.workorderData": {
+        "binding": {
+          "config": {
+            "parameters": {
+              "workorderID": "{view.params.workorderID}"
+            },
+            "queryPath": "Workorders/SELECT Single Workorder Data",
+            "returnFormat": "json"
+          },
+          "type": "query"
+        }
+      }
+    },
+    "props": {
+      "direction": "column"
+    },
+    "scripts": {
+      "customMethods": [],
+      "extensionFunctions": null,
+      "messageHandlers": [
+        {
+          "messageType": "refreshStatus",
+          "pageScope": true,
+          "script": "\t# implement your handler here\n\tself.refreshBinding(\"custom.workorderData\")",
+          "sessionScope": true,
+          "viewScope": true
+        }
+      ]
+    },
+    "type": "ia.container.flex"
+  }
+}

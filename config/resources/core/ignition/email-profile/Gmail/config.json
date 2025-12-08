@@ -1,0 +1,19 @@
+{
+  "profile": {
+    "type": "smtp.classic"
+  },
+  "settings": {
+    "advanced": {
+      "debugModeEnabled": false,
+      "smtpTimeout": 10000,
+      "sslProtocols": "TLSv1.2"
+    },
+    "settings": {
+      "hostname": "aspmx.l.google.com",
+      "port": 25,
+      "startTlsEnabled": false,
+      "useSslPort": false,
+      "username": "tminus1234567@gmail.com"
+    }
+  }
+}

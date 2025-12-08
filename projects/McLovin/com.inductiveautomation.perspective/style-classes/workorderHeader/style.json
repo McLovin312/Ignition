@@ -1,0 +1,14 @@
+{
+  "base": {
+    "style": {
+      "borderBottomColor": "#06276B",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "4px",
+      "color": "#06276B",
+      "fontFamily": "Roboto",
+      "fontSize": "24px",
+      "fontWeight": "bold",
+      "textAlign": "center"
+    }
+  }
+}

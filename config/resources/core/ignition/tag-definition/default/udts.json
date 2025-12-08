@@ -1,0 +1,25 @@
+[
+  {
+    "name": "New Instance",
+    "typeId": "New Type",
+    "parameters": {
+      "type": {
+        "dataType": "String",
+        "value": "expression"
+      }
+    },
+    "tagType": "UdtInstance",
+    "tags": [
+      {
+        "historyProvider": {
+          "bindType": "parameter",
+          "binding": "{PathToTag}"
+        },
+        "historyEnabled": true,
+        "value": 12,
+        "name": "New Tag",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 125
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Carousel"
+        },
+        "position": {
+          "basis": "100px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.views[0].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Middlegate[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.views[1].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Plata[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.views[2].viewParams.data": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Ignition/Forecasts/Middlegate[0]"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn value[\u0027data\u0027]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "activePane": 2,
+          "appearance": {
+            "arrows": {
+              "enabled": false
+            },
+            "dots": {
+              "enabled": false
+            }
+          },
+          "autoplay": {
+            "enabled": true,
+            "transitionDelay": 5000
+          },
+          "views": [
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "Middlegate"
+              },
+              "viewPath": "Weather/Large Forecast Card"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "Plata"
+              },
+              "viewPath": "Weather/Large Forecast Card"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "location": "St Vrain"
+              },
+              "viewPath": "Weather/Large Forecast Card"
+            }
+          ]
+        },
+        "type": "ia.display.carousel"
+      }
+    ],
+    "custom": {
+      "weather": {
+        "base": "stations",
+        "clouds": {
+          "all": 0
+        },
+        "cod": 200,
+        "coord": {
+          "lat": 38.6531,
+          "lon": -121.1899
+        },
+        "dt": 1761252958,
+        "id": 5349705,
+        "main": {
+          "feels_like": 71.15,
+          "grnd_level": 1011,
+          "humidity": 64,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "temp": 71.31,
+          "temp_max": 73.78,
+          "temp_min": 69.15
+        },
+        "name": "Folsom",
+        "sys": {
+          "country": "US",
+          "id": 2006213,
+          "sunrise": 1761229333,
+          "sunset": 1761268533,
+          "type": 2
+        },
+        "timezone": -25200,
+        "visibility": 10000,
+        "weather": [
+          {
+            "description": "clear sky",
+            "icon": "01d",
+            "id": 800,
+            "main": "Clear"
+          }
+        ],
+        "wind": {
+          "deg": 0,
+          "speed": 4.61
+        }
+      }
+    },
+    "events": {
+      "system": {
+        "onStartup": {
+          "config": {
+            "script": "\t# Get latitude and longitude coordinates for IA HQ\n\tlat \u003d 38.65306\n\tlng \u003d -121.18991\n\t# Call the weather API to get weather information for coordinates above. \n\tcallURL \u003d \"https://api.openweathermap.org/data/2.5/weather?lat\u003d\" + str(lat) + \"\u0026lon\u003d\" + str(lng) + \"\u0026appid\u003daf96a3049234149e6f0e5eb85a7bdfff\u0026units\u003dimperial\"\n\tcallResult \u003d system.net.httpGet(callURL)\n\tcallResult \u003d system.util.jsonDecode(str(callResult))\n\t\n\tself.custom.weather \u003d callResult"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "justify": "flex-end",
+      "style": {
+        "classes": "footer"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

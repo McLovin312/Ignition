@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 118
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AcmeLogo"
+        },
+        "position": {
+          "basis": "150px",
+          "shrink": 0
+        },
+        "props": {
+          "fit": {
+            "height": 150,
+            "mode": "contain",
+            "width": 150
+          },
+          "source": "/system/images/Acme/AcmeBlueLogo.png"
+        },
+        "type": "ia.display.image"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "justify": "space-between"
+    },
+    "type": "ia.container.flex"
+  }
+}

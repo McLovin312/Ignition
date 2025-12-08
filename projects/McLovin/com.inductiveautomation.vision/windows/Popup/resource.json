@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "xml-format-version": 1,
+    "lastModificationSignature": "0c8a932a6fc0237c2a968b87babb7046a9b88e1defbef52ffebf84e122de324b",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2025-10-15T20:17:54Z"
+    },
+    "parameter-names": "Pens,test"
+  }
+}

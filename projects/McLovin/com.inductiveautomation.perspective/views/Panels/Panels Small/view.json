@@ -1,0 +1,91 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 543
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "85px"
+        },
+        "props": {
+          "style": {
+            "classes": "viewHeader"
+          },
+          "text": "Solar Panels"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "SiteDropdown"
+        },
+        "position": {
+          "basis": "36px"
+        },
+        "propConfig": {
+          "props.options": {
+            "binding": {
+              "config": {
+                "queryPath": "Locations/Select All Locations",
+                "returnFormat": "json"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "panelDropdown"
+          },
+          "value": 1
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "PanelCarousel"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.views": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "location": "{../SiteDropdown.props.value}"
+                },
+                "queryPath": "Panels/Select All Panels",
+                "returnFormat": "json"
+              },
+              "transforms": [
+                {
+                  "code": "\tviews \u003d []\n\tfor row in value:\n\t\tsingleView \u003d {\n  \"viewPath\": \"Panels/Single Panel\",\n  \"viewParams\": {\"panelID\": row[\"panelID\"], \"location\": row[\"location\"]},\n  \"direction\": \"row\",\n  \"justify\": \"flex-start\",\n  \"alignItems\": \"flex-start\"\n}\n\t\tviews.append(singleView)\n\treturn views\n\t",
+                  "type": "script"
+                }
+              ],
+              "type": "query"
+            }
+          }
+        },
+        "type": "ia.display.carousel"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

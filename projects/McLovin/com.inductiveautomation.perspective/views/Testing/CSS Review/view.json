@@ -1,0 +1,379 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 798,
+      "width": 797
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label1"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 50,
+          "y": 49
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#ff9900",
+            "color": "#0000ff",
+            "fontSize": "24px",
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+            "textAlign": "center"
+          },
+          "text": "Label 1"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label2"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 296,
+          "y": 49
+        },
+        "props": {
+          "style": {
+            "fontFamily": "Merriweather",
+            "fontSize": "18px",
+            "fontWeight": "bold",
+            "textAlign": "right"
+          },
+          "text": "Label 2"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label3"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 50,
+          "y": 141
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/labelStyle1"
+          },
+          "text": "Label 3"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label4"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 296,
+          "y": 141
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/labelStyle1"
+          },
+          "text": "Label 4"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Button1"
+        },
+        "position": {
+          "height": 50,
+          "rotate": {
+            "anchor": "50% 36%"
+          },
+          "width": 150,
+          "x": 50,
+          "y": 325
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/labelStyle2 Testing/trueButton"
+          },
+          "text": "Button 1"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button2"
+        },
+        "position": {
+          "height": 50,
+          "rotate": {
+            "anchor": "50% 36%"
+          },
+          "width": 150,
+          "x": 296,
+          "y": 325
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/falseButton Testing/labelStyle2"
+          },
+          "text": "Button 2"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Label5"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 50,
+          "y": 233
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/labelStyle2"
+          },
+          "text": "Label 5"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label6"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 296,
+          "y": 233
+        },
+        "props": {
+          "text": "Label 6",
+          "textStyle": {
+            "classes": "Testing/labelStyle2"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "FourStateButton"
+        },
+        "position": {
+          "height": 120,
+          "width": 80,
+          "x": 331,
+          "y": 417
+        },
+        "propConfig": {
+          "props.controlValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Testing/4StateButton"
+              },
+              "type": "tag"
+            }
+          },
+          "props.indicatorValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Testing/4StateButton"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "defaultUnselectedStyle": {
+            "classes": "Testing/msbUnselected"
+          },
+          "states": [
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbWarmupSeleected"
+              },
+              "text": "Warmup",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            },
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbStartSelected"
+              },
+              "text": "Start",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbCooldownSelected"
+              },
+              "text": "Cooldown",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 3
+            },
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbOffSelected"
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "height": 120,
+          "rotate": {
+            "anchor": "-107% -42%"
+          },
+          "width": 80,
+          "x": 85,
+          "y": 417
+        },
+        "propConfig": {
+          "props.controlValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Testing/HOA"
+              },
+              "type": "tag"
+            }
+          },
+          "props.indicatorValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Testing/HOA"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "states": [
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbHandSelected"
+              },
+              "text": "Hand",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbOffSelected"
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "classes": "Testing/msbAutoSelected"
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\tself.getSibling(\"Label7\").props.style.classes \u003d \"Testing/labelStyle1\""
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button3"
+        },
+        "position": {
+          "height": 50,
+          "rotate": {
+            "anchor": "50% 36%"
+          },
+          "width": 150,
+          "x": 50,
+          "y": 571
+        },
+        "props": {
+          "text": "Button 3"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Label7"
+        },
+        "position": {
+          "height": 50,
+          "width": 150,
+          "x": 296,
+          "y": 571
+        },
+        "props": {
+          "style": {
+            "classes": "Testing/labelStyle1"
+          },
+          "text": "Label 7"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
